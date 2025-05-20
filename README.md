@@ -53,6 +53,8 @@ Link da aplicação: <a href="https://github.com/wiz-fatec/avaliacao-360">Avalia
 |[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
 |[PYTHON](https://docs.python.org/pt-br/dev/faq/general.html)|Python é uma linguagem de programação de alto nível, interpretada e orientada a objetos. É uma das linguagens de programação mais populares e usadas em diversos campos, como desenvolvimento web, ciência de dados, automação e machine learning. No projeto, utilizamos o PySimpleGUI, uma biblioteca Python que simplifica a criação de interfaces gráficas para aplicativos, tornando o desenvolvimento mais rápido e prático.|
+|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -129,7 +131,7 @@ Link da aplicação: <a href="https://github.com/wiz-fatec/api-">Sistema TG Mana
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,git,java,maven,postgresql,vscode"/><br>
+        <img src="https://skillicons.dev/icons?i=figma,git,java,maven,postgresql,vscode,idea"/><br>
     </div>
 </div>
 
@@ -141,6 +143,7 @@ Nome|Descrição|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
 |[POSTGRESQL](https://www.postgresql.org/docs/)|PostgreSQL é uma solução de banco de dados crucial que ajuda os desenvolvedores a manter a integridade de seus dados, gerenciar com mais facilidade cargas de trabalho de todos os tamanhos e dimensionar conforme necessário.|
 |[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -376,7 +379,7 @@ Link da aplicação:<a href="https://github.com/wiz-fatec/dom-rock-pipeline-conf
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,mysql"/><br>
+        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,mysql,vscode,idea"/><br>
     </div>
 </div>
 
@@ -392,8 +395,139 @@ Nome|Descrição|
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
 |[MySQL](https://www.mysql.com/)|MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto, ou seja, um software que permite armazenar e organizar dados em tabelas, com relacionamentos entre elas. Ele é amplamente utilizado em aplicações web e em diversos outros contextos, como em sites de comércio eletrônico, redes sociais e aplicativos.
+|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
 
 <br>
 <h3>Contribuições Pessoais</h3>
-Trabalhei como desenvolvedor Java em um projeto organizado seguindo a arquitetura MVC, que divide o sistema em três partes: o Model, responsável pelas regras de negócio e dados; a View, que é a parte visual que o usuário vê; e o Controller, que faz a ligação entre o Model e a View, coordenando as ações.
-Minha maior responsabilidade foi na parte do Model, cuidando das regras de negócio. Também ajudei na criação das telas e dos elementos visuais usando JavaFX, que fazem parte da View. Além disso, ofereci suporte para a equipe em várias tarefas durante o desenvolvimento.
+Atuei no projeto como Scrum Master e desenvolvedor back-end, usando Spring. Também trabalhei no front-end, desenvolvendo com Vue.js e TypeScript (VueTs).
+
+<details>
+<summary>Adição ao FlyWay</summary>
+No projeto da Dom Rock, foi incorporada a ferramenta Flyway com o objetivo de automatizar e organizar as mudanças no banco de dados por meio de scripts versionados, conhecidos como migrations.
+O Flyway permite que as alterações no esquema do banco como criação de tabelas, alterações de colunas, inclusão de dados iniciais, entre outras sejam aplicadas de forma controlada e repetível em diferentes ambientes (desenvolvimento, homologação e produção).
+Para utilizá-lo, adicionamos a dependência necessária no arquivo pom.xml do projeto. Em seguida, criamos uma estrutura dentro da pasta resources onde os scripts de migração são armazenados. Cada migration deve seguir o padrão de nomenclatura:
+V{número da versão}__{descrição_da_migration}.sql
+Por exemplo: V1__criar_tabela_usuario.sql.
+Dessa forma, garantimos que todas as alterações de banco estejam versionadas no repositório, facilitando o controle, rastreabilidade e automação do processo de atualização do schema em todas as etapas do ciclo de desenvolvimento.
+<div>
+<img src="img/flyway.png">
+</div>
+</details>
+<details>
+<summary>Utilização commons-csv</summary>
+Implementei o algoritmo responsável pelo tratamento e validação de arquivos CSV, com o objetivo de aplicar as regras de negócio definidas para a etapa inicial do processo de envio de dados, conhecida como configuração da camada LZ (Landing Zone).
+Esse algoritmo realiza diversas validações fundamentais logo após o upload do arquivo, incluindo:
+<ul>
+    <li>Verificação de linhas nulas no conteúdo do arquivo</li>
+    <li>Identificação da presença de cabeçalho (header)</li>
+    <li>Determinação do tipo do arquivo</li>
+    <li>Identificação do separador utilizado (por exemplo: vírgula, ponto e vírgula, tabulação, etc.)</li>
+</ul>
+Essas verificações garantem que o arquivo esteja em conformidade com os padrões esperados antes de ser processado e persistido no sistema.
+Após o envio do CSV, o sistema realiza a validação e retorna uma estrutura de dados contendo as principais informações do arquivo.
+Além disso, após a conclusão do upload e processamento do CSV, todas as colunas extraídas do arquivo são automaticamente exibidas na interface, na seção "Configurar Colunas", permitindo ao usuário revisar, ativar/desativar e ajustar as propriedades de cada uma conforme necessário.
+<div>
+<img src="img/lzConfig.png">
+</div>
+</details>
+<details>
+<summary>Criação da Tela Home</summary>
+Implementei a tela Home do sistema, com o objetivo de organizar e controlar o acesso às diferentes rotas de configuração de acordo com o nível de permissão do usuário. Essa lógica é essencial para garantir que cada usuário só tenha acesso às etapas do pipeline de dados compatíveis com seu perfil de atuação, conforme definido pelas permissões atribuídas ao seu papel (role) no sistema.
+A lógica de controle de acesso foi implementada com base na permissão (role) do usuário autenticado. A partir disso, defini as seguintes regras de navegação:
+<ul>
+    <li>
+        Permissão LZ: o usuário poderá acessar exclusivamente a etapa de configuração da Landing Zone (LZ). As demais rotas (como Bronze e Silver) ficam automaticamente bloqueadas, impedindo o acesso a funcionalidades que não correspondem à sua permissão.
+    </li>
+    <li>
+        Permissão Bronze: o usuário poderá acessar a configuração da camada Bronze.
+    </li>
+    <li>    
+        Permissão Silver: o usuário poderá acessar a configuração da camada Silver
+    </li>
+</ul>        
+A navegação foi construída de forma dinâmica, garantindo que os componentes de interface e as rotas visíveis sejam renderizados de acordo com a role do usuário logado,
+além disso, segui o layout e os componentes definidos no Figma.
+<div>
+<img src="img/home.png">
+</div>
+</details>
+<details>
+<summary>Criação da tela Bronze Config</summary>
+Implementei a tela de configuração da etapa Bronze, seguindo as boas práticas de componentização e organização de interface. Durante o desenvolvimento, realizei o alinhamento dos componentes visuais e organizei a estrutura de forma hierárquica, garantindo que os componentes-pai fossem responsáveis por orquestrar os eventos e interações com os componentes-filho. Essa abordagem favorece a legibilidade do código, a reutilização de componentes e a manutenção futura da aplicação.
+Cada componente foi projetado para ser responsável por uma funcionalidade específica, promovendo um desenvolvimento mais modular e desacoplado. Com isso, consegui separar claramente as responsabilidades, tornando a lógica de interação entre os elementos da interface mais simples e eficiente.
+Na parte de integração com a API, utilizei a biblioteca Axios para realizar a requisição responsável por buscar as colunas validadas na etapa Silver.
+
+Para essa tela foi adicionada a função de escolher quais colunas seriam hash para o arquivo.
+<div>
+<img src="img/Bronze.png">
+</div>
+</details>
+<details>
+<summary>Criação da header da aplicação</summary>
+Implementei o componente de Header da aplicação, com o objetivo de oferecer uma navegação mais intuitiva e fornecer informações contextuais importantes ao usuário durante o uso do sistema.
+Esse componente reúne funcionalidades essenciais para a experiência do usuário, incluindo:
+Indicação da etapa atual: exibe de forma clara em qual etapa do processo o usuário se encontra (por exemplo: Landing Zone, Bronze ou Silver), facilitando a orientação dentro do fluxo de configuração de dados.
+<ul>
+    <li>Identificação do usuário logado: apresenta o nome ou identificação do usuário atualmente autenticado no sistema.</li>
+    <li>Botão de logout: permite que o usuário encerre sua sessão de forma rápida e segura, garantindo controle sobre o acesso ao sistema.</li>
+    <li>Botões de ação "Salvar" e "Voltar": posicionados de forma estratégica no header, esses botões permitem ao usuário salvar as configurações atuais ou retornar à tela anterior, otimizando a navegação e o fluxo de trabalho.</li>
+</ul>
+<div>
+<img src="img/header.png">
+</div>
+</details>
+<details>
+<summary>Criação da tela silver</summary>
+Implementei a tela de configuração da etapa Silver (Silver Config), que tem como principal funcionalidade permitir ao usuário realizar o mapeamento de colunas através de um processo de "de/para", ou seja, definir um nome ou valor de destino para cada coluna validada nas etapas anteriores (Landing Zone e Bronze).
+A interface foi construída de forma a facilitar a visualização e a associação entre os nomes originais das colunas e seus respectivos nomes padronizados, utilizados nas etapas seguintes do pipeline de dados
+Durante o desenvolvimento, implementei a seguinte lógica:
+<ul>
+    <li>Busca de colunas validadas: a aplicação realiza uma requisição via API para recuperar todas as colunas que foram aprovadas nas etapas anteriores do fluxo.</li>
+    <li>Associação "de/para": para cada coluna listada, o usuário pode informar um valor correspondente ao nome padronizado (o "para"). Essa associação é armazenada na configuração da etapa Silver</li>
+    <li>Remoção de mapeamento: também criei a lógica que permite remover uma coluna do mapeamento, garantindo flexibilidade na edição e correção dos dados configurados.</li>
+</ul>
+<div>
+<img src="img/silver.png">
+</div>
+</details>
+<details>
+<summary>Cadastro de empresa</summary>
+Implementei a tela de cadastro de empresa, com a pemissão de Admin é possivel realizar o cadastro de empresa para que assim seja possível possível atrelar as configurações pertencentes aas empresa.
+Portanto para registrar uma nova empresa é preciso passar o nome da empresa e o CNPJ.
+<div>
+<img src="img/register.png">
+</div>
+</details>
+<details>
+<summary>Login da aplicação</summary>
+Implementei a tela de login da aplicação, responsável por autenticar o usuário e garantir o acesso seguro às funcionalidades do sistema.
+A interface foi desenvolvida  permitindo que o usuário informe suas credenciais de forma prática. Após o envio dos dados, o sistema realiza a autenticação por meio de uma requisição à API, que retorna um token JWT (JSON Web Token) em caso de sucesso.
+Para garantir a persistência da sessão e o controle de acesso às rotas protegidas, implementei a lógica de armazenamento do token no localStorage. Com isso:
+O token fica disponível enquanto o usuário estiver logado.
+<div>
+<img src="img/login.png">
+</div>
+</details>
+<br>
+
+<h2>Hard Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|FlayWay|Utilizei o flay para a automatização das migrations no nosso banco.|
+|Vue|Utilizei o Vue para a criação dos componentes e das telas, organizando as rotas de forma estruturada e seguindo o padrão SPA (Single Page Application). Com HTML e CSS, consegui construir o corpo da aplicação e aplicar a estilização dos componentes. O Vue também me permitiu utilizar recursos reativos, deixando a aplicação mais dinâmica.|
+|Spring|Com o Spring Boot, consegui criar o endpoint responsável pelo tratamento do arquivo CSV. A aplicação recebe o arquivo por meio de um controller, que aciona um service responsável por processar o conteúdo e retornar os dados da configuração, juntamente com a lista de colunas relacionadas a esse projeto.|
+|JWT token|Na tela de login, realizei uma requisição para o backend enviando o username e a senha. Em caso de autenticação bem-sucedida, recebo um token, que é armazenado no localStorage, permitindo que o usuário tenha acesso às funcionalidades da aplicação de acordo com suas permissões.|
+|Axios| Utilizei a biblioteca Axios para realizar as chamadas dos métodos HTTP para a aplicação desenvolvida com Spring Boot, facilitando a comunicação entre o front-end e o back-end.|
+
+
+<h2>Soft Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Agíl|Nesse projeto, atuei como Scrum Master, apoiando o time na aplicação prática da metodologia ágil. Minha atuação incluía o acompanhamento do andamento das tarefas, garantindo que os princípios do Scrum fossem seguidos de forma eficaz.Contribuí ativamente nas dailys, ajudando a torná-las mais objetivas e assertivas, com foco no progresso real das entregas e na remoção de impedimentos. Também fui responsável por organizar e conduzir os eventos de retrospectiva e planejamento (planning), incentivando a participação de todos os membros da equipe. Isso permitiu identificar pontos de melhoria e promover ajustes contínuos no processo.|
+|Adaptabilidade| Nesse projeto, foi escolhida a utilização do framework Vue, com o qual eu ainda não tinha muita familiaridade. No entanto, busquei estudar e entender como ele funcionava, explorando sua estrutura e conceitos. Com esse esforço, consegui aprender rapidamente e implementar as funcionalidades necessárias para o andamento do projeto de forma eficaz.|
+|Proatividade|Todos os dias eu acompanhava de perto o andamento do projeto e, sempre que identificava algo que pudesse estar atrapalhando o progresso, me colocava à disposição para ajudar a equipe. Atuava tanto no esclarecimento de dúvidas relacionadas a ferramentas ou regras de negócio, quanto assumindo tarefas de desenvolvimento quando necessário. Essa postura proativa contribuiu para manter o ritmo das entregas e fortalecer a colaboração dentro do time.|
+|Planejamento|Durante uma sprint, o cliente solicitou uma alteração de última hora, destacando que era algo muito importante. No entanto, o time já estava com a capacidade comprometida, e todas as entregas da sprint haviam sido previamente definidas e alinhadas. Diante disso, assumi a responsabilidade de comunicar ao cliente que a alteração não seria implementada naquele momento.|
+
