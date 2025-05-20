@@ -515,7 +515,7 @@ O token fica disponível enquanto o usuário estiver logado.
 
 Nome|Descrição|
 | :-------- | :-------- |
-|FlayWay|Utilizei o flay para a automatização das migrations no nosso banco.|
+|FlayWay|Utilizei o flay way para a automatização das migrations no nosso banco.|
 |Vue|Utilizei o Vue para a criação dos componentes e das telas, organizando as rotas de forma estruturada e seguindo o padrão SPA (Single Page Application). Com HTML e CSS, consegui construir o corpo da aplicação e aplicar a estilização dos componentes. O Vue também me permitiu utilizar recursos reativos, deixando a aplicação mais dinâmica.|
 |Spring|Com o Spring Boot, consegui criar o endpoint responsável pelo tratamento do arquivo CSV. A aplicação recebe o arquivo por meio de um controller, que aciona um service responsável por processar o conteúdo e retornar os dados da configuração, juntamente com a lista de colunas relacionadas a esse projeto.|
 |JWT token|Na tela de login, realizei uma requisição para o backend enviando o username e a senha. Em caso de autenticação bem-sucedida, recebo um token, que é armazenado no localStorage, permitindo que o usuário tenha acesso às funcionalidades da aplicação de acordo com suas permissões.|
@@ -531,3 +531,121 @@ Nome|Descrição|
 |Proatividade|Todos os dias eu acompanhava de perto o andamento do projeto e, sempre que identificava algo que pudesse estar atrapalhando o progresso, me colocava à disposição para ajudar a equipe. Atuava tanto no esclarecimento de dúvidas relacionadas a ferramentas ou regras de negócio, quanto assumindo tarefas de desenvolvimento quando necessário. Essa postura proativa contribuiu para manter o ritmo das entregas e fortalecer a colaboração dentro do time.|
 |Planejamento|Durante uma sprint, o cliente solicitou uma alteração de última hora, destacando que era algo muito importante. No entanto, o time já estava com a capacidade comprometida, e todas as entregas da sprint haviam sido previamente definidas e alinhadas. Diante disso, assumi a responsabilidade de comunicar ao cliente que a alteração não seria implementada naquele momento.|
 
+---
+
+<h2 style="text-align: center;">Projeto: GEO- IOT</h2>
+
+<h3>Objetivo da aplicação</h3>
+O projeto tem como objetivo desenvolver uma solução robusta para o armazenamento e consulta de dados de geolocalização em tempo real, gerados por dispositivos IoT, como wearables, tags e smartphones. Utilizando um banco de dados SQL, ORACLE CLOUD, a solução será capaz de lidar com grandes volumes de dados, garantindo escalabilidade e alta disponibilidade. A arquitetura proposta envolve o uso de Spring Boot para o backend, Vue.js para o frontend e comunicação eficiente via APIs RESTful. A segurança dos dados será garantida com criptografia e controle de acesso.
+
+Link da aplicação:<a href="https://github.com/manolito-fatec/geo-iot-2024-1">GEO-IOT</a>
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,docker,redis,vscode,idea"/><br>
+    </div>
+</div>
+
+Nome|Descrição|
+ :--------: | :-------- |
+|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
+[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
+[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
+|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
+|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
+|[ORACLE-CLOUD](https://www.oracle.com/br/cloud/)|A Oracle Cloud Infrastructure (OCI), frequentemente referida como Oracle Cloud, é uma plataforma de computação em nuvem que oferece uma vasta gama de serviços para empresas. Permite criar e executar aplicações em um ambiente escalável, seguro, de alto desempenho e altamente disponível, segundo a Oracle.|
+|[REDIS](https://redis.io/)|Redis é um sistema de armazenamento de dados em memória (in-memory) de código aberto que funciona como um banco de dados, cache e corretor de mensagens.
+|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
+
+<br>
+<h3>Contribuições Pessoais</h3>
+Nessa aplicação, atuei como desenvolvedor back-end, sendo responsável pela criação de APIs, implementação de regras de negócio, integração com o banco de dados e suporte às funcionalidades necessárias para o funcionamento da aplicação.
+
+<details>
+<summary>Implementação do Redis</summary>
+Como a aplicação lidava com um grande volume de dados, utilizamos o Redis para otimizar o desempenho, especialmente nos cálculos relacionados à movimentação de dispositivos IoT.
+Para isso, configurei o Redis como um serviço no docker-compose, permitindo o uso de armazenamento em cache. Essa abordagem foi essencial para reduzir o tempo de resposta das operações e aliviar a carga sobre o banco de dados principal.
+Implementei um controller específico para gerenciar o cache, que fazia chamadas a um service responsável por armazenar e recuperar os dados no Redis
+<div>
+    <b>docker-compose.yaml</b>
+    <div>
+    <img src="img/docker_compose.png">
+    </div>
+    <b>Método para armazinar no cache</b>
+    <div>
+    <img src="img/metodo_cache.png">
+    </div>
+</div>    
+</details>
+<details>
+<summary>Criação de Exceptions personalizadas</summary>
+Implementei algumas exceptions personalizadas para melhorar o tratamento de erros na aplicação. Com essas customizações, foi possível exibir mensagens mais claras e específicas, facilitando a visualização, identificação e correção dos erros.
+<div>
+    <b>Exemplo:</b>
+    <div>
+    <img src="img/exception.png">
+    </div>
+</div>    
+</details>
+<details>
+<summary>Criação da Entidade Person</summary>
+Implementei a entidade Person (representando as pessoas que possuem dispositivos IoT), realizando o mapeamento com a base de dados por meio de JPA. Desenvolvi todo o CRUD da entidade, incluindo validações nos campos obrigatórios e uma verificação adicional para garantir que a pessoa ainda não estivesse cadastrada no banco de dados, evitando duplicidades.
+<div>
+    <b>Exemplo:</b>
+    <div>
+    <img src="img/entity_person.png">
+    </div>
+</div>    
+</details>
+<details>
+<summary>Criação do algoritmo de Parada</summary>
+Implementei um algoritmo de detecção de paradas baseado em dados de localização. A lógica realizava a paginação dos registros no banco de dados em blocos de 100 pontos, analisando cada ponto individualmente. Caso fosse detectado que o usuário permaneceu dentro de um raio de até 5 metros, essa condição era considerada uma parada. Cada parada identificada era encapsulada em um objeto StopDto e adicionada a uma lista, que posteriormente era enviada ao front-end para exibição.
+<div>
+    <b>StopDto:</b>
+    <div>
+    <img src="img/stopDto.png">
+    </div>
+</div>    
+</details>
+<details>
+<summary>Device tracker : registro de pontos</summary>
+Implementei uma validação para o registro de pontos geográficos no banco de dados, garantindo a integridade das informações. As validações incluíam a verificação de valores nulos, bem como a checagem se a latitude estava entre -90 e 90 graus e a longitude entre -180 e 180 graus. Além disso, utilizei os valores de latitude e longitude válidos para obter o endereço correspondente.
+<div>
+    <b>StopDto:</b>
+    <div>
+    <img src="img/save_device_tracker.png">
+    </div>
+</div>    
+</details>
+<details>
+<summary>Histórico</summary>
+Implementei uma validação que garante que cada pessoa que possua registros no DeviceTracker consiga acessar e visualizar seu histórico completo de movimentações em um certo período. Esse histórico é composto por um conjunto organizado de paradas detectadas ao longo do tempo, que representam momentos em que o dispositivo permaneceu estacionado por determinado período. Com base nessas informações, o sistema consegue identificar e reconstruir as viagens realizadas pelo usuário, apresentando-as de forma clara e estruturada.
+<div>
+    <b>Método de histórico:</b>
+    <div>
+    <img src="img/history.png">
+    </div>
+</div>
+</details>
+<details>
+<summary>Spring Batch</summary>
+Implementei o framework Spring Batch para otimizar o processamento de grandes volumes de dados na nossa aplicação. Antes da implementação, a leitura, validação e gravação de arquivos CSV com mais de 500.000 linhas demorava cerca de 7 horas para ser concluída, impactando negativamente o desempenho e a experiência do usuário.
+Com o uso do Spring Batch, criei três jobs distintos: um para a leitura do arquivo, outro para a validação dos dados e um terceiro para o registro dessas informações no banco de dados. Essa divisão permitiu a execução eficiente das etapas em paralelo e com melhor gerenciamento de recursos.
+Como resultado, consegui reduzir o tempo total de processamento para aproximadamente 5 minutos.
+<div>
+    <b>Metodo padrão de tratamento para csv:</b>
+    <div>
+    <img src="img/csv_comum.jpeg">
+    </div>
+    <b>Spring Batch:</b>
+    <div>
+    <img src="img/spring_batch.jpeg">
+    </div>
+</div>
+</details>
