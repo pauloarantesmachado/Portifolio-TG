@@ -649,3 +649,23 @@ Como resultado, consegui reduzir o tempo total de processamento para aproximadam
     </div>
 </div>
 </details>
+
+<h2>Hard Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Spring-Batch|Com o Spring Batch, implementei um step responsável pela leitura, validação e escrita de dados no banco de forma muito mais performática. Essa abordagem permitiu o processamento eficiente de arquivos CSV com grandes volumes de dados. Antes da adoção do Spring Batch, o tempo de inserção no banco chegava a aproximadamente 7 horas. Após a reestruturação utilizando esse framework, consegui reduzir o tempo de processamento para cerca de 5 minutos.|
+|Spring-JPA|Com o spring JPA eu mapeie um entitade de Person e criei um repository que implementa a inteface JapaRepository que posssui os metodos pontos de crud, porém também crei outros metodos para realizar um filtragem.|
+|Redis| Utilizei o Redis como banco de dados em cache para aumentar a velocidade no cálculo de paradas com base nos dados de localização. Ao armazenar temporariamente as informações em memória, foi possível reduzir significativamente o tempo de acesso e processamento.|
+|Docker-Compose| Utilizei o Docker Compose para configurar e executar um serviço do Redis, além de incluir uma interface gráfica, para consultas no redis.
+|Oracle-Cloud|Criamos um banco de dados na Oracle Cloud com o objetivo de centralizar as consultas e o armazenamento de dados do projeto.|
+|Test unitários|Adotamos a prática de testes unitários na aplicação, o que contribuiu significativamente para a redução de bugs durante o desenvolvimento.|
+
+
+<h2>Soft Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Aprendizado contínuo|Nesse projeto tive que buscar studar e entender novas tecnologias as quais eu nunca tinha trabalahdo, portanto me dediquei e conseguir atribuir essa ferramentas a aplicação.|
+|Proatividade| Fui proativo ao assumir tarefas que apresentavam um maior grau de complexidade, demonstrando iniciativa e disposição para enfrentar desafios. Além disso, contribuí ativamente com o time, oferecendo suporte a colegas que estavam com dificuldades técnicas ou enfrentando obstáculos nas suas tarefas.|
+|Pensamento crítico|Durante o projeto, percebi que diversas informações descritas na documentação inicial repassada pelo cliente, no kick-off, acabavam fugindo do escopo ou não faziam sentido técnico dentro da proposta da solução. Com base nisso, sempre busquei analisar com cuidado essas demandas e conversei com o PO para propor ajustes ou abordagens mais coerentes. Essa postura ajudou a evitar retrabalho e garantiu que as implementações estivessem alinhadas com os objetivos reais do projeto.|
