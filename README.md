@@ -15,7 +15,7 @@ Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (In
 
 ---
 
-<h2>Minhas principais experincias</h2>
+<h2>Minhas principais experiências</h2>
 
 Possuo experiência no desenvolvimento de software legados e tenho atuado em projetos relacionados à telecomunicações. Utilizo a linguagem de programação Java e o banco de dados Oracle. Também tenho conhecimentos em containers e utilizo o Jenkins para gerar containers Docker, além de realizar a verificação dos testes executados durante o processo de build das minhas implementações. 
 
