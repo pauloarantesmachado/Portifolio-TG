@@ -121,7 +121,7 @@ Nome|Descrição|
 
 <br>
 
-<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação</h2>
+<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação(2023-02)</h2>
 
 <h3>Objetivo da aplicação</h3>
 Os objetivos da aplicação são: carregar o arquivo ".csv" para trazer uma maior facilidade na visualização dos dados e fornecer as possibilidades de anotações nas avaliações dos Trabalhos de Graduação, tais como feedback e nota do aluno em sua entrega. Também será possível agendar as entregas e definir as quantidades de entregas visto que a nota será baseado em uma média de notas que serão distribuidas nestas entregas. Por fim gerar relatórios com informações úteis ao usário, para que consiga gerenciar as turmas e facilitar a rotina e pendências das apresentações.
@@ -366,7 +366,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator</h2>
+<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator(2024-01)</h2>
 
 <h3>Objetivo da aplicação</h3>
 O Dom Rock Configurator tem como objetivo facilitar a configuração de uma pipeline, deixando mais
@@ -533,7 +533,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: GEO- IOT</h2>
+<h2 style="text-align: center;">Projeto: GEO- IOT(2024-02)</h2>
 
 <h3>Objetivo da aplicação</h3>
 O projeto tem como objetivo desenvolver uma solução robusta para o armazenamento e consulta de dados de geolocalização em tempo real, gerados por dispositivos IoT, como wearables, tags e smartphones. Utilizando um banco de dados SQL, ORACLE CLOUD, a solução será capaz de lidar com grandes volumes de dados, garantindo escalabilidade e alta disponibilidade. A arquitetura proposta envolve o uso de Spring Boot para o backend, Vue.js para o frontend e comunicação eficiente via APIs RESTful. A segurança dos dados será garantida com criptografia e controle de acesso.
@@ -669,3 +669,85 @@ Nome|Descrição|
 |Aprendizado contínuo|Nesse projeto tive que buscar studar e entender novas tecnologias as quais eu nunca tinha trabalahdo, portanto me dediquei e conseguir atribuir essa ferramentas a aplicação.|
 |Proatividade| Fui proativo ao assumir tarefas que apresentavam um maior grau de complexidade, demonstrando iniciativa e disposição para enfrentar desafios. Além disso, contribuí ativamente com o time, oferecendo suporte a colegas que estavam com dificuldades técnicas ou enfrentando obstáculos nas suas tarefas.|
 |Pensamento crítico|Durante o projeto, percebi que diversas informações descritas na documentação inicial repassada pelo cliente, no kick-off, acabavam fugindo do escopo ou não faziam sentido técnico dentro da proposta da solução. Com base nisso, sempre busquei analisar com cuidado essas demandas e conversei com o PO para propor ajustes ou abordagens mais coerentes. Essa postura ajudou a evitar retrabalho e garantiu que as implementações estivessem alinhadas com os objetivos reais do projeto.|
+
+---
+
+<h2 style="text-align: center;">Projeto: YOUTAN DASH(2025-01)</h2>
+
+<h3>Objetivo da aplicação</h3>
+O objetivo do projeto é desenvolver uma plataforma integrada a ferramenta de gestão de projetos Taiga, com o intuito de gerar e visualizar indicadores relacionados ao andamento de projetos. A plataforma deve fornecer um dashboard que permita a extração e análise de métricas importantes, como a quantidade de cards criados e finalizados em um período, tempo médio de execução de cards, distribuição de cards por colaborador, e outros indicadores relevantes para a gestão de projetos. A plataforma deve oferecer diferentes níveis de acesso para usuários, como Operador, Gestor e Admin, garantindo que cada perfil tenha acesso apenas às informações pertinentes ao seu papel. O projeto visa facilitar a visualização e o monitoramento do progresso dos projetos, tornando o processo mais eficiente, transparente e acessível para todos os envolvidos.
+
+Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">YOUTAN DASH</a>
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,vscode,idea,vercel"/><br>
+    </div>
+</div>
+
+Nome|Descrição|
+ :--------: | :-------- |
+|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
+[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
+[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
+|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
+|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
+|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
+|[Vercel](https://vercel.com/)|A Vercel é uma plataforma de deploy e hospedagem voltada principalmente para aplicações web.|
+|[Oracle DB](https://www.oracle.com/br/cloud/)|É um sistema de gerenciamento de banco de dados relacional (SGBD) desenvolvido pela empresa Oracle Corporation.É um dos bancos de dados mais usados no mundo, especialmente em grandes empresas, por causa da sua performance, segurança, estabilidade e suporte a altas cargas de dados.|
+|[Flyway](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
+|[Apache Spark](https://spark.apache.org/)|O Apache Spark é um framework de processamento de dados em larga escala, projetado para ser rápido, distribuído e fácil de usar.Ele é muito utilizado em big data, ciência de dados e machine learning, pois consegue processar grandes volumes de dados de forma paralela (em vários nós de um cluster) e muito mais rápida do que ferramentas tradicionais como o Hadoop MapReduce.|
+|[Taiga](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
+
+<br>
+<h3>Contribuições Pessoais</h3>
+Nessa aplicação, atuei como Product Owner (PO) e também como responsável pela etapa de testes na esteira DevOps. Nesse papel, trabalhei junto ao time para identificar as principais dores do cliente e traduzi-las em requisitos claros, garantindo uma boa rastreabilidade ao longo do desenvolvimento. Além disso, elaborei um documento de apoio para orientar a equipe na criação dos testes unitários, contribuindo para a padronização e a qualidade das entregas.
+<details>
+<summary>Rastreamento de requisitos</summary>
+Após o kick-off, analisei o documento de requisitos para compreender melhor as funcionalidades que poderíamos implementar. Em seguida, mantive contato constante com o cliente para validar essas ideias. Como o cliente não tinha um perfil técnico, optei por apresentar as funcionalidades por meio de um protótipo que desenvolvi no Figma, facilitando o entendimento.
+Depois da definição dos requisitos, criei identificadores únicos para cada um deles, garantindo uma rastreabilidade mais eficiente ao longo do projeto. Além disso, desenvolvi uma página web demonstrando o fluxo de rastreamento de requisitos, ajudando o time a visualizar e acompanhar o processo de forma clara e organizada.
+<a href="https://youtan-req.vercel.app/#Introduction">Página de requisitos</a>
+<div>
+    <img src="img/web_page.png">
+</div>
+</details>
+<details>
+<summary>Comunicação com o cliente</summary>
+Mantive contato constante com o cliente para coletar feedbacks das entregas e validar as funcionalidades do produto. Sempre procurei apresentar o projeto de forma simples e visual, facilitando a compreensão do cliente sobre o que estava sendo desenvolvido.
+A comunicação com o cliente era feita principalmente pelo Slack. Além disso, realizava reuniões semanais com o time para verificar se todos tinham um entendimento claro das funcionalidades e das tarefas em andamento, além de levantar possíveis dúvidas ou pontos a serem esclarecidos com o cliente.
+</details>
+<details>
+<summary>Test Unitários</summary>
+Fui responsável pelos testes unitários do projeto, tanto no back-end quanto no front-end. Elaborei um documento detalhado explicando, passo a passo, como os testes deveriam ser implementados.
+No back-end, os testes foram criados com foco na validação das regras de negócio dentro da camada de service da aplicação. Já no front-end, os testes tinham como objetivo verificar o comportamento dos inputs e demais interações da interface.
+O documento também apresentava o padrão de criação dos testes, incluindo orientações sobre nomenclatura e estrutura do corpo de cada teste, servindo como guia para manter a padronização e a qualidade do código.
+</details>
+<details>
+<summary>Componente exportar Dados</summary>
+Desenvolvi uma funcionalidade para exportar os dados do dashboard em formato CSV, implementando toda a solução desde a criação do endpoint no back-end até o desenvolvimento do componente na interface responsável por executar a exportação.
+<div>
+    <img src="img/export_csv.png">
+</div>
+</details>
+
+<h2>Hard Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|
+|Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|
+|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|
+
+
+<h2>Soft Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Comunicação |Sempre busquei manter uma comunicação clara e constante com o cliente, validando funcionalidades e coletando feedbacks sobre o produto. Também tive o cuidado de transmitir essas informações ao time de forma objetiva, garantindo o entendimento de todos sobre as demandas. Além disso, prezei pela transparência em todas as interações, compartilhando o andamento das tarefas e informando prontamente o cliente em caso de qualquer imprevisto.|
+|Proatividade| Fui proativo em auxiliar meus colegas em tarefas relacionadas ao produto e à implementação da esteira DevOps. Desenvolvi uma página de análise de requisitos para facilitar o entendimento do processo e apoiar o time na execução dessas atividades.|
