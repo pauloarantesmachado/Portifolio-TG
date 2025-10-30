@@ -723,6 +723,12 @@ Mantive contato constante com o cliente para coletar feedbacks das entregas e va
 A comunicação com o cliente era feita principalmente pelo Slack. Além disso, realizava reuniões semanais com o time para verificar se todos tinham um entendimento claro das funcionalidades e das tarefas em andamento, além de levantar possíveis dúvidas ou pontos a serem esclarecidos com o cliente.
 </details>
 <details>
+<summary>Backlog</summary>
+Fui responsável pela criação e gerenciamento do ciclo de vida do Product Backlog e do Sprint Backlog.
+No Product Backlog, organizei as user stories por prioridade, defini em qual sprint cada uma seria implementada e associei os requisitos funcionais correspondentes, garantindo o fluxo correto de rastreabilidade dos requisitos.
+Além disso, trabalhei junto ao time na definição do DOD (Definition of Done) e do DOR (Definition of Ready) para cada user story, assegurando clareza e alinhamento sobre o que precisava ser entregue e quando uma tarefa estava pronta para ser iniciada.
+</details>
+<details>
 <summary>Test Unitários</summary>
 Fui responsável pelos testes unitários do projeto, tanto no back-end quanto no front-end. Elaborei um documento detalhado explicando, passo a passo, como os testes deveriam ser implementados.
 No back-end, os testes foram criados com foco na validação das regras de negócio dentro da camada de service da aplicação. Já no front-end, os testes tinham como objetivo verificar o comportamento dos inputs e demais interações da interface.
