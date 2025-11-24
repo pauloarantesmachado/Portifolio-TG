@@ -757,3 +757,91 @@ Nome|Descrição|
 | :-------- | :-------- |
 |Comunicação |Sempre busquei manter uma comunicação clara e constante com o cliente, validando funcionalidades e coletando feedbacks sobre o produto. Também tive o cuidado de transmitir essas informações ao time de forma objetiva, garantindo o entendimento de todos sobre as demandas. Além disso, prezei pela transparência em todas as interações, compartilhando o andamento das tarefas e informando prontamente o cliente em caso de qualquer imprevisto.|
 |Proatividade| Fui proativo em auxiliar meus colegas em tarefas relacionadas ao produto e à implementação da esteira DevOps. Desenvolvi uma página de análise de requisitos para facilitar o entendimento do processo e apoiar o time na execução dessas atividades.|
+
+---
+
+<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte(2025-02)</h2>
+
+<h3>Objetivo da aplicação</h3>
+O propósito essencial deste projeto é tratar e modernizar a base de dados legada do cliente, que armazena informações de tickets de suporte, visando a estrita conformidade com a LGPD. Além da adequação legal e segurança dos dados, a aplicação incorporará inteligência artificial (IA) para gerar métricas e insights.
+
+Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARDAL - Insights e Metricas de Tickets de chamados de suporte</a>
+
+<div style="text-align: center;">
+    <b>Tecnologias Utilizadas no Projeto</b>
+    <div>
+        <img src="https://skillicons.dev/icons?i=html,css,vuejs,typescript,yarn,git,spring,java,maven,vscode,eclipse,docker,python,postgresql,mongodb"/><br>
+    </div>
+</div>
+
+Nome|Descrição|
+ :--------: | :-------- |
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
+[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
+[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.|
+[YARN](https://yarnpkg.com/)|Yarn pode significar o gerenciador de pacotes para JavaScript ou o gerenciador de recursos do Hadoop, dependendo do contexto. Como gerenciador de pacotes, o Yarn ajuda a instalar, gerenciar e compartilhar dependências (pacotes de código) para projetos JavaScript, sendo uma alternativa ao npm. Como gerenciador de recursos (em sistemas distribuídos), YARN é a sigla para "Yet Another Resource Negotiator", responsável pelo gerenciamento de recursos e agendamento de tarefas.|
+|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
+|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
+|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[ECLIPSE](https://eclipseide.org/)|Eclipse IDE é um Ambiente de Desenvolvimento Integrado (IDE) de código aberto, usado principalmente para desenvolver aplicações Java, mas que também suporta outras linguagens por meio de plugins|
+|[DOCKER](https://www.docker.com/)|O Docker é uma plataforma de software que permite criar, testar e implantar aplicativos rapidamente, empacotando-os em unidades padronizadas chamadas contêineres.|
+|[PYTHON](https://www.python.org/)|Python é uma linguagem de programação de alto nível, interpretada e de uso geral, conhecida por sua sintaxe clara e legível, o que a torna fácil de aprender e usar. É amplamente aplicada em diversas áreas, como desenvolvimento web, ciência de dados, inteligência artificial, machine learning e automação, devido à sua versatilidade e à vasta quantidade de bibliotecas e frameworks disponíveis. A linguagem suporta múltiplos paradigmas de programação, incluindo orientação a objetos, e é executada em várias plataformas. |
+|[POSTGRESQL](https://www.postgresql.org/)|PostgreSQL é um sistema de gerenciamento de banco de dados relacional de objeto (ORDBMS) de código aberto, robusto e confiável, conhecido por seu desempenho de nível empresarial e conformidade com os padrões SQL. Ele suporta tanto dados relacionais (SQL) quanto não relacionais (como JSON) e é altamente extensível, permitindo personalizações com tipos de dados e funções customizadas. |
+|[MONGODB](https://www.mongodb.com/)|MongoDB é um sistema de gerenciamento de banco de dados (SGBD) NoSQL, de código aberto, que armazena dados em documentos flexíveis no formato BSON (uma versão binária do JSON) em vez de tabelas e linhas como os bancos de dados relacionais. |
+|[TAIGA](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Migrations no Flyway são scripts de SQL versionados que descrevem mudanças incrementais no esquema de um banco de dados, como criar tabelas, adicionar colunas ou remover índices.|
+|[SONAR-CLOUD](https://sonarcloud.io/login)|SonarCloud é uma ferramenta de análise de código estática como serviço (SaaS) que automatiza a revisão de código em mais de 30 linguagens para detectar problemas de manutenção, confiabilidade e segurança|
+|[JUPYTER-NOTEBOOK](https://jupyter.org/)|SJupyter Notebook é um aplicativo web de código aberto que permite criar e compartilhar documentos interativos, combinando código executável, texto explicativo (usando Markdown), equações, imagens e visualizações.|
+
+
+<br>
+<h3>Contribuições Pessoais</h3>
+Atuei de forma multifuncional neste projeto, englobando desde a infraestrutura de dados até a experiência do usuário e a inteligência artificial. Como desenvolvedor Full Stack (Back-end e Front-end), fui responsável pela criação de diversos endpoints de API, desenvolvimento de telas e componentes front-end, e pela lógica de negócios como a implementação de triggers no banco e a criação da lógica do Termo de Uso. Paralelamente, estruturei a base para Machine Learning, desenvolvendo um modelo de treinamento com forecaster e configurando o pipeline de extração e preparação dos dados necessários. Adicionalmente, fui responsável pelo gerenciamento dos logs da aplicação
+
+<details>
+<summary>Endopint de buscas de dados relacionados a Tela de dashboards</summary>
+</details>
+<details>
+<summary>Criação do modelo de machine learrning usuando um data set do Kaggle</summary>
+</details>
+<details>
+<summary>Pipeline ETL para registrar dados do modelo no Mongo DB</summary>
+</details>
+<details>
+<summary>Criaçaõ da lógica para armazenamento de logs da aplicação </summary>
+</details>
+<details>
+<summary>Criação da lógica do termo de uso </summary>
+</details>
+<details>
+<summary>Mudança da lógica de cadastro na plataforma e criação dos emails </summary>
+</details>
+<details>
+<summary>Criação do endpoint de exporta dados para csv na relcaionados ao log da aplicação</summary>
+</details>
+<details>
+<summary>Criação dos componentes na tela de Dash</summary>
+</details>
+<details>
+<summary>Melhoria da tela de Admin</summary>
+</details>
+
+
+<h2>Hard Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|
+|Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|
+|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|
+
+
+<h2>Soft Skills</h2>
+
+Nome|Descrição|
+| :-------- | :-------- |
+|Comunicação |Sempre busquei manter uma comunicação clara e constante com o cliente, validando funcionalidades e coletando feedbacks sobre o produto. Também tive o cuidado de transmitir essas informações ao time de forma objetiva, garantindo o entendimento de todos sobre as demandas. Além disso, prezei pela transparência em todas as interações, compartilhando o andamento das tarefas e informando prontamente o cliente em caso de qualquer imprevisto.|
+|Proatividade| Fui proativo em auxiliar meus colegas em tarefas relacionadas ao produto e à implementação da esteira DevOps. Desenvolvi uma página de análise de requisitos para facilitar o entendimento do processo e apoiar o time na execução dessas atividades.|
