@@ -657,6 +657,7 @@ Como resultado, consegui reduzir o tempo total de processamento para aproximadam
     </div>
 </div>
 </details>
+<br>
 
 <h2>Hard Skills</h2>
 
@@ -749,6 +750,7 @@ Desenvolvi uma funcionalidade para exportar os dados do dashboard em formato CSV
     <img src="img/export_csv.png">
 </div>
 </details>
+<br>
 
 <h2>Hard Skills</h2>
 
@@ -863,6 +865,7 @@ Desenvolvi a lógica de Controle de Acesso Baseado em Roles, garantindo que some
     <img src="img/adminTable.png">
 </div>
 </details>
+<br>
 
 <h2>Hard Skills</h2>
 
