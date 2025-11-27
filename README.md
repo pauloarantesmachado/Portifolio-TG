@@ -1,11 +1,19 @@
 <h1>Paulo Antonio Arantes Machado</h1>
-
+<p align="center">
+  <img 
+    src="https://avatars.githubusercontent.com/u/105655724?v=4" 
+    alt="Sua Foto de Perfil" 
+    width="200px" 
+    height="200px" 
+    style="border-radius: 50%; object-fit: cover; border: 3px solid #007acc;"
+  >
+</p>
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em dezembro de 2025.
 
-Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade de entrar no mercado de trabalho como desenvolvedor web, utilizando Python e JavaScript. Trabalhei nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei a trabalhar como desenvolvedor Java e a lidar com o banco de dados Oracle.
+Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade ingressar no mercado de trabalho como desenvolvedor web, atuando com Python e JavaScript. Permaneci nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei atuar como desenvolvedor Java e a lidar com o banco de dados Oracle.
 
-Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (Inovações Tecnológicas)</a>, onde continuo contribuindo para um projeto na área de telecomunicações, utilizando Java no back-end, JavaScript no front-end e Oracle como banco de dados.
+Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (Inovações Tecnológicas)</a>, onde continuo contribuindo para um projeto no setor de telecomunicações, utilizando Java e Oracle como banco de dados.
 
 <h2>Contato</h2>
 
@@ -17,14 +25,14 @@ Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (In
 
 <h2>Minhas principais experiências</h2>
 
-Possuo experiência no desenvolvimento de software legados e tenho atuado em projetos relacionados à telecomunicações. Utilizo a linguagem de programação Java e o banco de dados Oracle. Também tenho conhecimentos em containers e utilizo o Jenkins para gerar containers Docker, além de realizar a verificação dos testes executados durante o processo de build das minhas implementações. 
+Possuo experiência no desenvolvimento e manutenção de softwares legados e tenho atuado em projetos do setor de telecomunicações. Trabalho com a linguagem Java e o banco de dados Oracle, além de possuir conhecimento em containers. Utilizo o Jenkins para geração de imagens Docker e acompanhamento dos testes realizados durante o processo de build das minhas implementações.
 
-Adicionalmente, utilizo a ferramenta Moba para acessar máquinas com Unix. Tenho trabalhado com testes unitários, empregando o EasyMock e o JUnit, e com testes de integração utilizando o Robot framework.
+Além disso, utilizo o MobaXterm para acessar máquinas Unix. Tenho experiência com testes unitários utilizando EasyMock e JUnit, bem como testes de integração com o Robot Framework.
 
 ---
 
 <h2>Objetivos Futuros</h2>
-Tenho o objetivo de me aprofundar no desenvolvimento de software. Pretendo adquirir conhecimentos robustos em arquitetura de software e futuramente, considerar a possibilidade de realizar um mestrado na área de engenharia de software.
+Tenho como objetivo me aprofundar no desenvolvimento de software, adquirindo conhecimentos sólidos em arquitetura de software. No futuro, pretendo considerar a realização de um mestrado na área de Engenharia de Software
 
 ---
 
@@ -32,7 +40,7 @@ Tenho o objetivo de me aprofundar no desenvolvimento de software. Pretendo adqui
 
 <h2 style="text-align: center;">💻PROJETOS API Fatec</h2>
 
-<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360°(2023-01)</h2>
+<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360°</h2>
 
 <h3>Objetivo da aplicação</h3>
 O programa viabiliza a avaliação dos alunos, se baseando na metodologia Avaliação 360º. Para liberar o acesso ao programa, teremos 2 niveis de acesso: Administrador e Aluno. Dependendo do tipo de acesso, havera opções de tela diferentes. A tela "aluno" possibilitará ao usuário ver a turma e o grupo ao qual está inserido, avaliar os membros do seu grupo e se auto-avaliar, podendo ver os resultados das avaliações realizadas por ele. O "Administrador" terá atribuições de criar as turmas, grupos e o registro dos alunos, requisitar a avaliação e observar os resultados da mesma, atraves de dashboards operacionais e gerenciais.
@@ -121,7 +129,7 @@ Nome|Descrição|
 
 <br>
 
-<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação(2023-02)</h2>
+<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação</h2>
 
 <h3>Objetivo da aplicação</h3>
 Os objetivos da aplicação são: carregar o arquivo ".csv" para trazer uma maior facilidade na visualização dos dados e fornecer as possibilidades de anotações nas avaliações dos Trabalhos de Graduação, tais como feedback e nota do aluno em sua entrega. Também será possível agendar as entregas e definir as quantidades de entregas visto que a nota será baseado em uma média de notas que serão distribuidas nestas entregas. Por fim gerar relatórios com informações úteis ao usário, para que consiga gerenciar as turmas e facilitar a rotina e pendências das apresentações.
@@ -366,7 +374,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator(2024-01)</h2>
+<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator</h2>
 
 <h3>Objetivo da aplicação</h3>
 O Dom Rock Configurator tem como objetivo facilitar a configuração de uma pipeline, deixando mais
@@ -533,7 +541,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: GEO- IOT(2024-02)</h2>
+<h2 style="text-align: center;">Projeto: GEO- IOT</h2>
 
 <h3>Objetivo da aplicação</h3>
 O projeto tem como objetivo desenvolver uma solução robusta para o armazenamento e consulta de dados de geolocalização em tempo real, gerados por dispositivos IoT, como wearables, tags e smartphones. Utilizando um banco de dados SQL, ORACLE CLOUD, a solução será capaz de lidar com grandes volumes de dados, garantindo escalabilidade e alta disponibilidade. A arquitetura proposta envolve o uso de Spring Boot para o backend, Vue.js para o frontend e comunicação eficiente via APIs RESTful. A segurança dos dados será garantida com criptografia e controle de acesso.
@@ -672,7 +680,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: YOUTAN DASH(2025-01)</h2>
+<h2 style="text-align: center;">Projeto: YOUTAN DASH</h2>
 
 <h3>Objetivo da aplicação</h3>
 O objetivo do projeto é desenvolver uma plataforma integrada a ferramenta de gestão de projetos Taiga, com o intuito de gerar e visualizar indicadores relacionados ao andamento de projetos. A plataforma deve fornecer um dashboard que permita a extração e análise de métricas importantes, como a quantidade de cards criados e finalizados em um período, tempo médio de execução de cards, distribuição de cards por colaborador, e outros indicadores relevantes para a gestão de projetos. A plataforma deve oferecer diferentes níveis de acesso para usuários, como Operador, Gestor e Admin, garantindo que cada perfil tenha acesso apenas às informações pertinentes ao seu papel. O projeto visa facilitar a visualização e o monitoramento do progresso dos projetos, tornando o processo mais eficiente, transparente e acessível para todos os envolvidos.
@@ -760,7 +768,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte(2025-02)</h2>
+<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte</h2>
 
 <h3>Objetivo da aplicação</h3>
 O propósito essencial deste projeto é tratar e modernizar a base de dados legada do cliente, que armazena informações de tickets de suporte, visando a estrita conformidade com a LGPD. Além da adequação legal e segurança dos dados, a aplicação incorporará inteligência artificial (IA) para gerar métricas e insights.
@@ -802,46 +810,80 @@ Nome|Descrição|
 Atuei de forma multifuncional neste projeto, englobando desde a infraestrutura de dados até a experiência do usuário e a inteligência artificial. Como desenvolvedor Full Stack (Back-end e Front-end), fui responsável pela criação de diversos endpoints de API, desenvolvimento de telas e componentes front-end, e pela lógica de negócios como a implementação de triggers no banco e a criação da lógica do Termo de Uso. Paralelamente, estruturei a base para Machine Learning, desenvolvendo um modelo de treinamento com forecaster e configurando o pipeline de extração e preparação dos dados necessários. Adicionalmente, fui responsável pelo gerenciamento dos logs da aplicação
 
 <details>
-<summary>Endopint de buscas de dados relacionados a Tela de dashboards</summary>
+<summary>Endpoint de buscas de dados relacionados a Tela de dashboards</summary>
+UUtilizando a JPA Criteria API, a consulta de busca foi aprimorada para ser dinâmica, facilitando a implementação de filtros complexos e melhorando a flexibilidade nas operações de busca de dados.
+Adicionalmente, criei uma endpoint para buscar informações sobre o indicador de % de Reincidência.
+<div>
+    <img src="img/specification.png">
+</div>
 </details>
 <details>
 <summary>Criação do modelo de machine learrning usuando um data set do Kaggle</summary>
+Utilizando um dataset do Kaggle, desenvolvi um modelo de Machine Learning para séries temporais baseado no Prophet (treinado em Jupyter Notebook) com o objetivo de prever a quantidade de cards abertos para os próximos  meses. Após o treinamento, o modelo foi integrado ao pipeline de ETL: o processo agora se conecta ao banco de dados para buscar e validar dados de entrada, utiliza o modelo serializado para gerar as previsões e, por fim, persiste os resultados em uma collection no MongoDB.
+<div>
+    <img src="img/iaChart.png">
+</div>
 </details>
 <details>
-<summary>Pipeline ETL para registrar dados do modelo no Mongo DB</summary>
-</details>
-<details>
-<summary>Criaçaõ da lógica para armazenamento de logs da aplicação </summary>
+<summary>Criação da lógica para armazenamento de logs da aplicação </summary>
+O sistema de logs da aplicação foi estruturado utilizando o SLF4J para a inserção programática dos registros. Para garantir o rastreamento detalhado de comandos, foi desenvolvido um EventListener customizado que é acionado na execução de cada comando.
+Para fins de auditoria, um Filter do Spring foi configurado com sucesso, permitindo a captura e associação do identificador do usuário e do endpoint específico executado a cada requisição.
+Todos esses registros são, então, persistidos e armazenados em uma collection no MongoDB, que serve como o repositório centralizado para a análise e monitoramento dos logs da aplicação.
+Também criei o endpoint para realizar o export dos logs para csv
+<div>
+    <img src="img/logAudit.png">
+</div>
 </details>
 <details>
 <summary>Criação da lógica do termo de uso </summary>
+Desenvolvi um novo endpoint para a criação e gestão dos Termos de Uso da nossa aplicação. Implementei um trigger automatizado que, quando um novo termo é criado, ele é imediatamente atrelado a todos os usuários da plataforma. Consequentemente, configurei um controle de acesso obrigatório: o usuário só consegue utilizar a plataforma após a aceitação explícita dos checks obrigatórios contidos no novo Termo de Uso.
+<div>
+    <img src="img/termOfUse.png">
+</div>
 </details>
 <details>
 <summary>Mudança da lógica de cadastro na plataforma e criação dos emails </summary>
-</details>
-<details>
-<summary>Criação do endpoint de exporta dados para csv na relcaionados ao log da aplicação</summary>
-</details>
-<details>
-<summary>Criação dos componentes na tela de Dash</summary>
+Para o cadastro na plataforma o novo úsuario deveria aceitar o termo de uspo e após isso, eu criei um completableFuture para que em um thread em parallelo a thread main enviaceum email relatando sobre o pré cadastro na palicação,  eo novo usuário só conseguiria utilizar a plataforma se o admin aprovace o seu cadastro então eu cria um email que dá essa informação do pré cadastrro para o novo usuário.
+também criei o email de que qunaod o admin aprovacesse o cadastro chegaria um emai lfalando que o cadastro ocorreu com sucesso.
+Para o processo de cadastro na plataforma, configurei o fluxo para que o novo usuário deva aceitar os Termos de Uso obrigatoriamente. Após a aceitação, utilizei o CompletableFuture para iniciar um processamento assíncrono em uma thread paralela à principal. Essa thread é responsável por enviar um e-mail ao novo usuário confirmando o pré-cadastro na aplicação.
+
+O acesso completo à plataforma é condicionado à aprovação de um Administrador. Portanto, desenvolvi também dois modelos de notificação por e-mail:
+
+1.Um e-mail informando o usuário sobre o status de pré-cadastro e a necessidade de aprovação.
+
+2.Um segundo e-mail, de confirmação de sucesso, é disparado automaticamente assim que o Administrador aprova o cadastro, liberando o acesso total à plataforma.
+<div>
+    <img src="img/email.png">
+</div>
 </details>
 <details>
 <summary>Melhoria da tela de Admin</summary>
+Desenvolvi a lógica de Controle de Acesso Baseado em Roles, garantindo que somente usuários com a role de Administrador possam acessar a tela de gestão. Para viabilizar o fluxo de aprovação, adicionei as colunas Status e Ações à tabela de usuários já existente na tela de Admin. Essa interface permite que o Administrador aprove explicitamente os cadastros, sendo essa aprovação uma condição obrigatória para que o usuário possa utilizar a plataforma.
+<div>
+    <img src="img/adminTable.png">
+</div>
 </details>
-
 
 <h2>Hard Skills</h2>
 
 Nome|Descrição|
 | :-------- | :-------- |
-|Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|
-|Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|
-|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|
+|PROPHET| Utilizei a biblioteca Prophet (desenvolvida pelo Facebook) para a modelagem e treinamento de séries temporais|
+|PYTHON|Utilizei Python no pipeline para orquestrar a fase de carga (Load). Após o cálculo das previsões, o código em Python é responsável por conectar-se diretamente ao MongoDB e armazenar todos os dados gerados pelo modelo.|
+|JUPYTER|Utilizei o Jupyter Notebook como ambiente de desenvolvimento interativo para treinar e gerar o modelo de forecasting|
+|MONGODB|Utilizei o mongo db para armazenar os daods do modelo de IA e também para armazenar os dados de Log da aplicação|
+|JPA CRITERIA API|Utilizei a JPA Criteria API para aprimorar a camada de persistência, possibilitando a construção programática de queries. Essa abordagem tornou as consultas de busca dinâmicas e altamente flexíveis, facilitando a implementação e o gerenciamento de filtros complexos na aplicação.|
+|SLF4J|Implementei o sistema de logs da aplicação utilizando o SLF4J (Simple Logging Facade for Java) para a injeção e manipulação dos registros. Em seguida, configurei o appender de log para garantir a persistência centralizada desses registros em uma collection dedicada no MongoDB.|
+|THYMELEAF JAVA|Implementei a criação de templates de e-mail em HTML utilizando o Thymeleaf em conjunto com a linguagem Java. Essa abordagem permitiu a injeção e o processamento de variáveis e dados dinâmicos do Java diretamente nos templates HTML, possibilitando o envio de comunicações personalizadas e contextualmente ricas para os usuários.|
+|DUCKDB|Utilizei o DunckDb para fazer conexão com o banco de dados postegresql para buscar dados para o treinamento de IA|
+|KAGGLE|Fonte do dataset usado no treinamento do modelo preditivo.|
 
 
 <h2>Soft Skills</h2>
 
 Nome|Descrição|
 | :-------- | :-------- |
-|Comunicação |Sempre busquei manter uma comunicação clara e constante com o cliente, validando funcionalidades e coletando feedbacks sobre o produto. Também tive o cuidado de transmitir essas informações ao time de forma objetiva, garantindo o entendimento de todos sobre as demandas. Além disso, prezei pela transparência em todas as interações, compartilhando o andamento das tarefas e informando prontamente o cliente em caso de qualquer imprevisto.|
-|Proatividade| Fui proativo em auxiliar meus colegas em tarefas relacionadas ao produto e à implementação da esteira DevOps. Desenvolvi uma página de análise de requisitos para facilitar o entendimento do processo e apoiar o time na execução dessas atividades.|
+|Gestão do Tempo e Organização |Habilidade de priorizar tarefas, cumprir prazos e utilizar o tempo de forma eficiente, mantendo o foco nas atividades de maior valor.|
+|Autodesenvolvimento Contínuo| Busquei ativamente o Autodesenvolvimento Contínuo, adquirindo novos conhecimentos e ferramentas (como frameworks de design ou técnicas de otimização de queries) para solucionar desafios técnicos e aprimorar a qualidade do produto.|
+
+---
