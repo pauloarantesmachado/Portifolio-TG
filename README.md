@@ -55,7 +55,7 @@ Atualmente, minha atuação está concentrada no desenvolvimento e manutenção 
 ---
 
 <h2>Objetivos Futuros</h2>
-Busco uma jornada de especialização para construir uma base sólida em arquitetura de software, aprimorando minhas habilidades como desenvolvedor. Meus próximos passos incluem obter uma Certificação Java e, futuramente, investir em um Mestrado em Engenharia de Software.
+Busco me especializar em arquitetura de software para consolidar minha base técnica como desenvolvedor. Meu foco agora é investir em um Mestrado em Engenharia de Software.
 
 ---
 
@@ -913,7 +913,7 @@ O objetivo do projeto é desenvolver uma plataforma integrada a ferramenta de ge
 <ul>
   <li>Visualização da quantidade de cards atribuídos a cada operador sob gestão, além dos cards designados ao próprio gestor.</li>
   <li>Capacidade de filtrar cards de projetos sob sua gestão (e atribuídos a ele) por um período específico, facilitando o acompanhamento da evolução.</li>
-  <li>Visualização de todos os cards dos operadores gerenciados, com filtro baseado no status da tarefa, para monitorar a progressão dos projetos.</li>
+  <li>Visualização de todos os cards dos operadores gerenciados, com filtro baseado no status da tarefa, para monitorar o progresso dos projetos.</li>
   <li>Apresentação de indicadores sobre o tempo médio de conclusão dos cards finalizados pela equipe e o tempo médio individual de cada operador.</li>
   <li>Visualização de informações detalhadas sobre retrabalhos e issues (quantidade, tipo, gravidade e prioridade) para análise de eficiência e priorização de ações corretivas.</li>
   <li>Funcionalidade para visualizar o total de cards organizados por tags, otimizando a análise da distribuição e progresso das tarefas por área do projeto.</li>
@@ -1057,11 +1057,11 @@ O desafio central do cliente, a Pro4tec, reside na modernização urgente de sua
   <li>Funcionalidade implementada para geração periódica e segura de backups do sistema e da base de dados, garantindo a recuperação em caso de falhas.</li>
   <li>Funcionalidades de criação, edição e remoção de usuários concluídas, mantendo o acesso ao sistema atualizado.</li>
   <li>Funcionalidade de exportação de relatórios em formatos PDF e CSV, permitindo o compartilhamento de resultados com outros departamentos.</li>
-  <li>Implementado um processo automatizado que analisa o texto dos tickets, extrai sugestões e as agrupa por tema, apresentando-as em um dashboard para decisões de roadmap orientadas por dados.</li>
-  <li>Funcionalidade para filtrar insights por cliente, produto e data, permitindo a obtenção de análises exclusivas para cada cenário.</li>
-  <li>Dashboard com a visualização de insights prescritivos gerados por IA para a equipe de produto, visando identificar melhorias e oportunidades no sistema (focado em solicitações de melhoria).</li>
-  <li>Funcionalidade para visualizar a previsão de tickets sob risco de extrapolar o SLA, permitindo ações preventivas por parte do gestor de suporte.</li>
-  <li>Módulo para identificar e listar as causas raiz mais comuns dos tickets, auxiliando no planejamento de treinamentos e melhorias de produto.</li>
+  <li>Implementado um processo automatizado que analisa o texto dos tickets, extrai sugestões e as agrupa por tema.</li>
+  <li>Funcionalidade para filtrar insights por cliente, produto e data.</li>
+  <li>Dashboard com a visualização de insights prescritivos gerados por IA.</li>
+  <li>Funcionalidade para visualizar a previsão de tickets sob risco de extrapolar o SLA.</li>
+  <li>Módulo para identificar e listar as causas-raiz mais comuns dos tickets</li>
   <li>Funcionalidade para analisar a sazonalidade e o volume de tickets ao longo do tempo.</li>
   <li>Implementado o processo de anonimização automática de dados pessoais genéricos presentes nas descrições dos tickets, garantindo a conformidade com a LGPD.</li>
   <li>Implementação da tela onde o usuário pode visualizar suas informações, realizar a alteração de senha e exportar logs de acesso.
