@@ -1,13 +1,5 @@
-<h1>Paulo Antonio Arantes Machado</h1>
-<p align="center">
-  <img 
-    src="https://avatars.githubusercontent.com/u/105655724?v=4" 
-    alt="Sua Foto de Perfil" 
-    width="200px" 
-    height="200px" 
-    style="border-radius: 50%; object-fit: cover; border: 3px solid #007acc;"
-  >
-</p>
+<img src="img/profile.png">
+
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em dezembro de 2025.
 
@@ -23,16 +15,47 @@ Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (In
 
 ---
 
+<h2>Meus principais conhecimentos</h2>
+Tenho experiência prática no desenvolvimento web Java, com foco em backend, e busco constante aprimoramento nesta área.
+Desde o segundo semestre da FATEC, após o primeiro contato com a linguagem java, direcionei meus estudos e aprofundamento de forma contínua para o universo do desenvolvimento. Atualmente, minha stack tecnológica é a seguinte:
+
+| Nome da Tecnologia | Breve Descrição |
+| :--- | :--- |
+| Java | Linguagem de programação principal, utilizada para desenvolvimento backend. |
+| Spring | Framework essencial para criar aplicações robustas e escaláveis, como APIs e microsserviços. |
+| Hibernate | Framework de Mapeamento Objeto-Relacional (ORM), facilitando a interação com o banco de dados. |
+| Oracle Database | Sistema gerenciador de banco de dados (SGBD) relacional de nível empresarial. |
+| PostgreSQL | SGBD relacional open source, conhecido por sua robustez e recursos avançados. |
+| Git | Sistema de controle de versão distribuído, fundamental para o trabalho colaborativo. |
+| Container (Docker) | Tecnologia de virtualização leve para empacotar e executar aplicações em ambientes isolados e consistentes. |
+| Linux | Sistema operacional utilizado para ambiente de desenvolvimento e deploy (servidores). |
+| Bash Script | Linguagem de script utilizada para automação de tarefas e gerenciamento no ambiente Linux. |
+| Maven | Ferramenta de gerenciamento de dependências e construção de projetos Java. |
+| Gradle | Ferramenta alternativa ao Maven, focada em flexibilidade e construção rápida de projetos. |
+| JUnit | Framework para o desenvolvimento e execução de testes unitários em Java. |
+| Mockito | Framework de mocking para isolar e simular dependências em testes unitários. |
+| JMeter | Ferramenta para testes de performance e carga em aplicações web. |
+| Robot Test | Framework de automação de testes aceitação e testes funcionais (Geralmente usado para testes de UI/End-to-End). |
+| Eclipse IDE | Ambiente de Desenvolvimento Integrado (IDE) utilizado para codificação e debugging de projetos Java. |
+
+
 <h2>Minhas principais experiências</h2>
+Minha trajetória como desenvolvedor iniciou com o Front-end, onde adquiri experiência com o framework Angular. Evoluí para o Back-end em projetos, utilizando Flask e Python.
 
-Possuo experiência no desenvolvimento e manutenção de softwares legados e tenho atuado em projetos do setor de telecomunicações. Trabalho com a linguagem Java e o banco de dados Oracle, além de possuir conhecimento em containers. Utilizo o Jenkins para geração de imagens Docker e acompanhamento dos testes realizados durante o processo de build das minhas implementações.
+Atualmente, minha atuação está concentrada no desenvolvimento e manutenção de softwares no setor de telecomunicações. Possuo experiência prática e em desenvolvimento em:
 
-Além disso, utilizo o MobaXterm para acessar máquinas Unix. Tenho experiência com testes unitários utilizando EasyMock e JUnit, bem como testes de integração com o Robot Framework.
+- Desenvolvimento Core: Atuo com a linguagem Java e o banco de dados Oracle, incluindo o desenvolvimento e manutenção de sistemas legados.
+
+- DevOps e Integração Contínua: Utilizo Jenkins para automatizar o processo de build, a geração de imagens Docker (containers) e o acompanhamento dos testes durante o pipeline de integração contínua.
+
+- Ambiente e Ferramentas: Possuo conhecimento em ambientes Unix/Linux, utilizando o MobaXterm para acesso e administração de máquinas.
+
+- Testes: Tenho experiência prática em testes unitários com Mockito e JUnit, e em testes de integração e aceitação utilizando o Robot Framework.
 
 ---
 
 <h2>Objetivos Futuros</h2>
-Tenho como objetivo me aprofundar no desenvolvimento de software, adquirindo conhecimentos sólidos em arquitetura de software. No futuro, pretendo considerar a realização de um mestrado na área de Engenharia de Software
+Busco uma jornada de especialização para construir uma base sólida em arquitetura de software, aprimorando minhas habilidades como desenvolvedor. Meus próximos passos incluem obter uma Certificação Java e, futuramente, investir em um Mestrado em Engenharia de Software.
 
 ---
 
@@ -40,17 +63,49 @@ Tenho como objetivo me aprofundar no desenvolvimento de software, adquirindo con
 
 <h2 style="text-align: center;">💻PROJETOS API Fatec</h2>
 
-<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360°</h2>
+<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360° (2023-1)</h2>
+
+<h3>Empresa</h3>
+Trabalho realizado como Projeto Interno, tendo o Professor Lucas Nadalete como Cliente Principal.
+
+<h3>Problema</h3>
+A PBLTeX, especializada em cursos práticos de ensino aplicando PBL (Problem Based Learning) desenvolveu uma dinâmica de Avaliação Democratizada baseada na Avaliação 360º. O desafio será de apoiar a instituição a levantar, especificar e desenvolver uma solução computacional que viabilize a aplicação da Avaliação.
 
 <h3>Objetivo da aplicação</h3>
 O programa viabiliza a avaliação dos alunos, se baseando na metodologia Avaliação 360º. Para liberar o acesso ao programa, teremos 2 niveis de acesso: Administrador e Aluno. Dependendo do tipo de acesso, havera opções de tela diferentes. A tela "aluno" possibilitará ao usuário ver a turma e o grupo ao qual está inserido, avaliar os membros do seu grupo e se auto-avaliar, podendo ver os resultados das avaliações realizadas por ele. O "Administrador" terá atribuições de criar as turmas, grupos e o registro dos alunos, requisitar a avaliação e observar os resultados da mesma, atraves de dashboards operacionais e gerenciais.
+
+<h3>Funcionalidades</h3>
+
+<h4>Funcionalidades do Perfil: Aluno</h4>
+<ul>
+  <li>Realizar login com usuário e senha</li>
+  <li>Acessar a Interface de Aluno</li>
+  <li>Avaliar a si mesmo e aos seus colegas</li>
+  <li>Visualizar gráficos de desempenho gerados pela sua avaliação</li>
+</ul>
+
+<h4>Funcionalidades do Perfil: Administrador</h4>
+<ul>
+  <li>Realizar o login com usuário e senha</li>
+  <li>Acessar a Interface de administrador</li>
+  <li>Realizar o cadastro de alunos, grupos e turmas</li>
+  <li>Configurar sprint das turmas</li>
+  <li>Visualizar lista de turmas e grupos</li>
+  <li>Visualizar gráficos de desempenho gerados pelas avaliações dos grupos e das turmas.</li>
+</ul>
+
 
 Link da aplicação: <a href="https://github.com/wiz-fatec/avaliacao-360">Avaliação -360</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,git,python,vscode"/><br>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+        <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="vscode"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
     </div>
 </div>
 
@@ -60,8 +115,10 @@ Link da aplicação: <a href="https://github.com/wiz-fatec/avaliacao-360">Avalia
  :--------: | :-------- |
 |[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[PYTHON](https://docs.python.org/pt-br/dev/faq/general.html)|Python é uma linguagem de programação de alto nível, interpretada e orientada a objetos. É uma das linguagens de programação mais populares e usadas em diversos campos, como desenvolvimento web, ciência de dados, automação e machine learning. No projeto, utilizamos o PySimpleGUI, uma biblioteca Python que simplifica a criação de interfaces gráficas para aplicativos, tornando o desenvolvimento mais rápido e prático.|
 |[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
+|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
 
 
 <br>
@@ -129,17 +186,45 @@ Nome|Descrição|
 
 <br>
 
-<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação</h2>
+<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação (2023-2)</h2>
+
+<h3>Empresa</h3>
+Trabalho realizado como Projeto Interno, tendo o Professor Emanuel Mineda como Cliente Principal.
+
+<h3>Problema</h3>
+Desenvolver uma aplicação que leia um arquivo ".csv" com respostas vindas de um formulário respondido pelos alunos a respeito do Trabalho de Graduação. O objetivo é desenvolver uma aplicação que facilite a visualização de dados auxilie na questão de aplicação de notas e feedbacks gerando relatórios que se encaixem ao cliente.
 
 <h3>Objetivo da aplicação</h3>
 Os objetivos da aplicação são: carregar o arquivo ".csv" para trazer uma maior facilidade na visualização dos dados e fornecer as possibilidades de anotações nas avaliações dos Trabalhos de Graduação, tais como feedback e nota do aluno em sua entrega. Também será possível agendar as entregas e definir as quantidades de entregas visto que a nota será baseado em uma média de notas que serão distribuidas nestas entregas. Por fim gerar relatórios com informações úteis ao usário, para que consiga gerenciar as turmas e facilitar a rotina e pendências das apresentações.
+
+<h3>Funcionalidades</h3>
+
+<ul>
+  <li>Carregar arquivo ".csv"</li>
+  <li>Verificar informações do aluno</li>
+  <li>Controlar a quantidade de entregas</li>
+  <li>Agendar data das entregas</li>
+  <li>Atribuir nota por entrega por aluno</li>
+  <li>Atribuir feedback por entrega por aluno</li>
+  <li>Gerar relatório individual de cada aluno</li>
+  <li>Gerar relatório geral de todos os alunos</li>
+  <li>Gerar relatório que liste alunos aptos à defesa de sua TG com dados do orientador</li>
+</ul>
+
 
 Link da aplicação: <a href="https://github.com/wiz-fatec/api-">Sistema TG Manager</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,git,java,maven,postgresql,vscode,idea"/><br>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.postgresql.org/docs/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
     </div>
 </div>
 
@@ -147,6 +232,7 @@ Nome|Descrição|
  :--------: | :-------- |
 |[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web|[FIGMA](https://www.figma.com/pt-br/)|
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
 |[POSTGRESQL](https://www.postgresql.org/docs/)|PostgreSQL é uma solução de banco de dados crucial que ajuda os desenvolvedores a manter a integridade de seus dados, gerenciar com mais facilidade cargas de trabalho de todos os tamanhos e dimensionar conforme necessário.|
@@ -374,7 +460,26 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator</h2>
+<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator (2024-1)</h2>
+
+<h3>Empresa</h3>
+Projeto executado em colaboração com a DomRock.
+
+<h3>Problema</h3>
+Dom Rock possui uma arquitetura de processamento de dados encadeados
+denominado pipeline que contempla alguns estágios. Esses estágios são
+orquestrados de forma automatizada mediante características das fontes de
+dados e soluções de algoritmos de IA ou modelos matemáticos em função do
+negócio dos clientes. Na metodologia de implantação da solução, existe a
+necessidade de configurar as fontes de dados envolvidas para que a plataforma
+possa operar. Essa configuração, atualmente, é manual e trata-se de um passo
+crítico e fundamental que consome muito tempo de técnicos. O desafio, portanto,
+é criar uma interface amigável para configuração das fontes de dados em alguns
+estágios que levarão a dois benefícios tangíveis:
+<ol>
+  <li>Maior agilidade na configuração e implantação de soluções para os clientes DomRock.</li>
+  <li>Redução da dependência de técnicos especialistas para a realização das configurações.</li>
+</ol>
 
 <h3>Objetivo da aplicação</h3>
 O Dom Rock Configurator tem como objetivo facilitar a configuração de uma pipeline, deixando mais
@@ -382,29 +487,75 @@ versátil e criando a possibilidade de colaboradores não técnicos, das empresa
 nosso cliente, entenderem e auxiliarem na etapa de configuração do fluxo de dados dos arquivos
 em que irão efetuar a atualização.
 
+<h3>Funcionalidades</h3>
+
+<h4>Módulo de Configuração e Ingestão de Dados (Permissão LZ)</h4>
+<ul>
+  <li><strong>Importação e Configuração de Arquivos (CSV/Excel):</strong> Implementada a funcionalidade para o usuário de permissão LZ importar arquivos de dados (.csv ou Excel) e configurar as informações em uma visualização de tabela.</li>
+  <li><strong>Definição da Fonte e Frequência de Dados:</strong> Implementada a capacidade de informar a origem dos dados e a frequência de envio para estruturar o esquema no banco de dados.</li>
+  <li><strong>Mapeamento de Colunas e Regras de Negócio:</strong> Entregue a funcionalidade que permite definir tipos de dados de coluna, configurar campos "null"/vazios, selecionar colunas para processamento, nomear cabeçalhos e descrever regras de negócios para a persistência no banco de dados.</li>
+  <li><strong>Edição de Configurações:</strong> Implementada a gestão dos arquivos configurados, permitindo ao usuário LZ acessar e alterar as informações inseridas anteriormente.</li>
+</ul>
+
+<h4>Módulo de Processamento e Chaves (Permissão Bronze)</h4>
+<ul>
+  <li><strong>Configuração de Chave Identificadora e Validação:</strong> Capacidade de o usuário Bronze configurar a chave identificadora da tabela de dados e validar os dados provenientes da etapa LZ para uso em fluxos subsequentes.</li>
+  <li><strong>Gestão de Chaves Identificadoras:</strong> Funcionalidade para visualizar e editar as chaves identificadoras configuradas, permitindo a análise e alteração dos campos que as compõem.</li>
+</ul>
+
+<h4>Módulo de Transformação e Significado (Permissão Silver)</h4>
+<ul>
+  <li><strong>Configuração de De/Para (Mapeamento de Valores):</strong> Implementada a funcionalidade para o usuário Silver realizar mapeamento de valores (de/para), transformando ranges numéricos (ex: 1 a 5) em valores significativos (ex: bom, muito bom).</li>
+  <li><strong>Visualização e Edição de Mapeamentos:</strong> Entregue o módulo de visualização e edição das configurações de de/para realizadas, garantindo a análise e ajustes necessários.</li>
+</ul>
+
+<h4>Módulo de Administração e Segurança (Permissão Administrador)</h4>
+<ul>
+  <li><strong>Cadastro de Usuários e Permissões:</strong> Implementada a funcionalidade de cadastro de novos usuários e a atribuição granular de permissões, controlando o acesso somente às etapas autorizadas.</li>
+  <li><strong>Log de Acesso Detalhado:</strong> Implementação do log de acesso para que o administrador possa verificar informações de auditoria (quem acessou, o quê, quando e qual ação foi realizada).</li>
+  <li><strong>Dashboards Quantitativos:</strong> Entregue a visualização de dashboards quantitativos para que o administrador possa realizar análises e monitoramento do sistema.</li>
+</ul>
+
 Link da aplicação:<a href="https://github.com/wiz-fatec/dom-rock-pipeline-configurator">Dom Rock pipeline</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,mysql,vscode,idea"/><br>
+        <a href="https://flywaydb.org/" target="_blank"><img src="https://img.shields.io/badge/Flyway-CC0500?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway"></a>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
     </div>
 </div>
 
 Nome|Descrição|
  :--------: | :-------- |
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
 |[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
 |[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
 |[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
 [VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
 [TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
 |[MySQL](https://www.mysql.com/)|MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto, ou seja, um software que permite armazenar e organizar dados em tabelas, com relacionamentos entre elas. Ele é amplamente utilizado em aplicações web e em diversos outros contextos, como em sites de comércio eletrônico, redes sociais e aplicativos.
 |[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
 |[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
+|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -541,17 +692,72 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: GEO- IOT</h2>
+<h2 style="text-align: center;">Projeto: GEO- IOT (2024-2)</h2>
+
+<h3>Empresa</h3>
+Projeto executado em colaboração com a ITO1.
+
+<h3>Problema</h3>
+A IOT1 nos procurou com a necessidade urgente de desenvolver uma aplicação robusta para processar um volume massivo de dados, que atinge a marca de aproximadamente 500.000 novas linhas (registros) relacionadas à geolocalização.
+Este cenário impõe desafios críticos de armazenamento, escalabilidade e desempenho ao banco de dados
 
 <h3>Objetivo da aplicação</h3>
 O projeto tem como objetivo desenvolver uma solução robusta para o armazenamento e consulta de dados de geolocalização em tempo real, gerados por dispositivos IoT, como wearables, tags e smartphones. Utilizando um banco de dados SQL, ORACLE CLOUD, a solução será capaz de lidar com grandes volumes de dados, garantindo escalabilidade e alta disponibilidade. A arquitetura proposta envolve o uso de Spring Boot para o backend, Vue.js para o frontend e comunicação eficiente via APIs RESTful. A segurança dos dados será garantida com criptografia e controle de acesso.
+
+<h3>Funcionalidade</h3>
+
+<h4>API e Backend</h4>
+<ul>
+    <li>
+        <strong>Autenticação e Autorização Robusta:</strong> Implementação de uma API com sistema de autenticação e autorização, garantindo diferentes níveis de acesso (Admin, Comum) e controle robusto a dados sensíveis.
+    </li>
+    <li>
+        <strong>Gestão Completa de Recursos (CRUD):</strong> Entrega de endpoints para a criação, leitura, atualização e exclusão (CRUD) de recursos essenciais, como Usuários, Dispositivos IoT e Dados de Geolocalização.
+    </li>
+    <li>
+        <strong>Serviços de Geolocalização:</strong> Desenvolvimento de endpoints dedicados para registro, consulta, rastreamento e histórico de dados de geolocalização. O banco de dados suporta o armazenamento de dados geoespaciais de múltiplos tipos de dispositivos IoT (wearables, tags, smartphones) e consultas espaciais eficientes.
+    </li>
+    <li>
+        <strong>Mecanismo de Consultas Complexas:</strong> Implementação de mecanismos de consulta na API que suportam filtros avançados por tempo, localização e tipo de dispositivo, com geração de relatórios customizados.
+    </li>
+</ul>
+
+<h4>Frontend e Interface do Usuário</h4>
+<ul>
+    <li>
+        <strong>Filtros Avançados e Contextuais:</strong> Implementação de menus suspensos (dropdowns) para filtros refinados, incluindo: Tipo de Objeto (Pessoa, Veículo), Indivíduo/Objeto Específico, Origem do Dado (Wearables, Tags, Smartphones) e Período da Pesquisa (Data/Hora de Início e Fim).
+    </li>
+    <li>
+        <strong>Pesquisa Rápida e Predefinida:</strong> Disponibilização de um campo de pesquisa rápida com filtros de tempo predefinidos (Ex: Hoje, Últimos 3 dias, Último mês) para acesso eficiente a resultados relevantes.
+    </li>
+    <li>
+        <strong>Controle de Reprodução de Movimentação:</strong> Implementação de uma interface com controles para o usuário selecionar a velocidade de reprodução e navegar pelo histórico de movimentação (avançar/retroceder), visualizando pontos de parada e trajetórias em um intervalo de tempo específico.
+    </li>
+    <li>
+        <strong>Visualização Geoespacial Completa:</strong> Implementação de um mapa interativo com funcionalidades básicas (arrasto e zoom) e a plotagem automática dos pontos de parada (com intervalo de 15 minutos) e a exibição da movimentação (trajetória) entre esses pontos.
+    </li>
+</ul>
 
 Link da aplicação:<a href="https://github.com/manolito-fatec/geo-iot-2024-1">GEO-IOT</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,docker,redis,vscode,idea"/><br>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://www.oracle.com/br/cloud/" target="_blank"><img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Cloud"></a>
+        <a href="https://redis.io/" target="_blank"><img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+        <a href="https://trello.com/" target="_blank"><img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"></a>
     </div>
 </div>
 
@@ -563,6 +769,7 @@ Nome|Descrição|
 [VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
 [TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
@@ -570,6 +777,8 @@ Nome|Descrição|
 |[REDIS](https://redis.io/)|Redis é um sistema de armazenamento de dados em memória (in-memory) de código aberto que funciona como um banco de dados, cache e corretor de mensagens.
 |[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
 |[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
+|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
+
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -681,17 +890,77 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: YOUTAN DASH</h2>
+<h2 style="text-align: center;">Projeto: YOUTAN DASH (2025-1)</h2>
+
+<h3>Empresa</h3>
+Projeto executado em colaboração com a YOUTAN.
+
+<h3>Problema</h3>
+Com o aumento da demanda por projetos, a liderança passou a enfrentar dificuldades para obter visibilidade clara sobre o andamento das iniciativas. As métricas disponíveis nos tickets da ferramenta de gestão Taiga não estavam sendo consolidadas ou apresentadas de forma acessível, dificultando o acompanhamento do desempenho, identificação de gargalos e tomada de decisões estratégicas.
 
 <h3>Objetivo da aplicação</h3>
 O objetivo do projeto é desenvolver uma plataforma integrada a ferramenta de gestão de projetos Taiga, com o intuito de gerar e visualizar indicadores relacionados ao andamento de projetos. A plataforma deve fornecer um dashboard que permita a extração e análise de métricas importantes, como a quantidade de cards criados e finalizados em um período, tempo médio de execução de cards, distribuição de cards por colaborador, e outros indicadores relevantes para a gestão de projetos. A plataforma deve oferecer diferentes níveis de acesso para usuários, como Operador, Gestor e Admin, garantindo que cada perfil tenha acesso apenas às informações pertinentes ao seu papel. O projeto visa facilitar a visualização e o monitoramento do progresso dos projetos, tornando o processo mais eficiente, transparente e acessível para todos os envolvidos.
+
+<h3>Funcionalidades</h3>
+
+<h4>Para Operadores (Foco em Desempenho Pessoal)</h4>
+<ul>
+  <li>Visualização de todos os cards organizados por status (pendente, em progresso, finalizado) para acompanhamento do andamento das tarefas.</li>
+  <li>Visualização do tempo médio de conclusão dos cards finalizados e da quantidade de projetos em que o operador participa, para monitoramento de eficiência.</li>
+</ul>
+
+<h4>Para Gestores (Foco em Produtividade e Monitoramento de Equipe)</h4>
+<ul>
+  <li>Visualização da quantidade de cards atribuídos a cada operador sob gestão, além dos cards designados ao próprio gestor.</li>
+  <li>Capacidade de filtrar cards de projetos sob sua gestão (e atribuídos a ele) por um período específico, facilitando o acompanhamento da evolução.</li>
+  <li>Visualização de todos os cards dos operadores gerenciados, com filtro baseado no status da tarefa, para monitorar a progressão dos projetos.</li>
+  <li>Apresentação de indicadores sobre o tempo médio de conclusão dos cards finalizados pela equipe e o tempo médio individual de cada operador.</li>
+  <li>Visualização de informações detalhadas sobre retrabalhos e issues (quantidade, tipo, gravidade e prioridade) para análise de eficiência e priorização de ações corretivas.</li>
+  <li>Funcionalidade para visualizar o total de cards organizados por tags, otimizando a análise da distribuição e progresso das tarefas por área do projeto.</li>
+</ul>
+
+<h4>Para Administradores (Foco em Governança e Estrutura)</h4>
+<ul>
+  <li>Visualização da quantidade total de projetos e cards em cada um, fornecendo uma visão abrangente da gestão.</li>
+  <li>Visualização da quantidade de cards criados e finalizados dentro de um período específico para monitorar o progresso global.</li>
+  <li>Tabela com a listagem de cada projeto, o gestor responsável e o número de pessoas alocadas, para uma visão clara da estrutura.</li>
+  <li>Funcionalidade de exportação dos dados do Dashboard para arquivo CSV, permitindo análise, compartilhamento e arquivamento externo.</li>
+  <li>Tabela abrangente de registro de auditoria que detalha cada ação realizada na aplicação (usuário, tipo de ação e timestamp).</li>
+</ul>
+
+<h4>Funcionalidades Gerais</h4>
+<ul>
+  <li>Implementação do sistema de autenticação na aplicação, permitindo acesso seguro aos indicadores e dados relevantes (para Operador, Gestor e Admin).</li>
+  <li>Funcionalidade para o Admin cadastrar novos usuários, com a obrigatoriedade de associar o usuário a, no mínimo, uma ferramenta de gestão (Taiga, Trello ou Jira) para fins de integração.</li>
+  <li>Capacidade de o Admin integrar novas ferramentas ao sistema, permitindo a ampliação de funcionalidades e interoperabilidade.</li>
+</ul>
 
 Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">YOUTAN DASH</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=figma,html,css,vuejs,typescript,git,spring,java,maven,vscode,idea,vercel"/><br>
+        <a href="https://www.figma.com/pt-br/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://vercel.com/" target="_blank"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+        <a href="https://www.oracle.com/br/cloud/" target="_blank"><img src="https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle Database"></a>
+        <a href="https://www.red-gate.com/products/flyway/community/" target="_blank"><img src="https://img.shields.io/badge/Flyway-CC0500?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway"></a>
+        <a href="https://spark.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white" alt="Apache Spark"></a>
+        <a href="https://taiga.io/" target="_blank"><img src="https://img.shields.io/badge/Taiga-4E8098?style=for-the-badge&logo=taiga&logoColor=white" alt="Taiga"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
+        <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
+        <a href="https://junit.org/junit5/" target="_blank"><img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"></a>
+        <a href="https://site.mockito.org/" target="_blank"><img src="https://img.shields.io/badge/Mockito-000000?style=for-the-badge&logo=mockito&logoColor=white" alt="Mockito"></a>
+        <a href="https://vitest.dev/" target="_blank"><img src="https://img.shields.io/badge/Vitest-6E9411?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest"></a>
     </div>
 </div>
 
@@ -703,16 +972,21 @@ Nome|Descrição|
 [VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
 [TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
 |[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
 |[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
-|[Vercel](https://vercel.com/)|A Vercel é uma plataforma de deploy e hospedagem voltada principalmente para aplicações web.|
-|[Oracle DB](https://www.oracle.com/br/cloud/)|É um sistema de gerenciamento de banco de dados relacional (SGBD) desenvolvido pela empresa Oracle Corporation.É um dos bancos de dados mais usados no mundo, especialmente em grandes empresas, por causa da sua performance, segurança, estabilidade e suporte a altas cargas de dados.|
-|[Flyway](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
-|[Apache Spark](https://spark.apache.org/)|O Apache Spark é um framework de processamento de dados em larga escala, projetado para ser rápido, distribuído e fácil de usar.Ele é muito utilizado em big data, ciência de dados e machine learning, pois consegue processar grandes volumes de dados de forma paralela (em vários nós de um cluster) e muito mais rápida do que ferramentas tradicionais como o Hadoop MapReduce.|
-|[Taiga](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
+|[VERCEL](https://vercel.com/)|A Vercel é uma plataforma de deploy e hospedagem voltada principalmente para aplicações web.|
+|[ORACLEDB](https://www.oracle.com/br/cloud/)|É um sistema de gerenciamento de banco de dados relacional (SGBD) desenvolvido pela empresa Oracle Corporation.É um dos bancos de dados mais usados no mundo, especialmente em grandes empresas, por causa da sua performance, segurança, estabilidade e suporte a altas cargas de dados.|
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
+|[APACHESPARK](https://spark.apache.org/)|O Apache Spark é um framework de processamento de dados em larga escala, projetado para ser rápido, distribuído e fácil de usar.Ele é muito utilizado em big data, ciência de dados e machine learning, pois consegue processar grandes volumes de dados de forma paralela (em vários nós de um cluster) e muito mais rápida do que ferramentas tradicionais como o Hadoop MapReduce.|
+|[TAIGA](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
+|[JUNIT](https://junit.org/junit5/)|Unit é um framework de código aberto para a linguagem Java, essencial para escrever e executar testes de unidade. Ajuda a garantir que cada parte do código funcione corretamente.|
+|[MOCKITO](https://site.mockito.org/)|Ele é usado em testes de unidade para criar objetos simulados mocks de dependências externas, isolando o código a ser testado.|
+|[VITEST](https://vitest.dev/)|Vitest é um framework de testes unitários moderno, rápido e otimizado para aplicações JavaScript/TypeScript (com foco em ecossistemas como Vue.js e React). É conhecido por sua velocidade e integração nativa com o Vite|
+
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -770,7 +1044,30 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte</h2>
+<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte (2025-2)</h2>
+
+<h3>Empresa</h3>
+Projeto executado em colaboração com a Pro4tec.
+
+<h3>Problema</h3>
+O desafio central do cliente, a Pro4tec, reside na modernização urgente de sua base de dados de chamados antigos. O projeto é impulsionado por dois pilares: Conformidade e Segurança (LGPD), visando adequar o tratamento e a segurança das informações de suporte à Lei Geral de Proteção de Dados, e Inteligência de Dados, buscando transformar a base em uma fonte estratégica, extraindo métricas e insights para otimizar a gestão de suporte e a tomada de decisão.
+
+<h3>Funcionalidades</h3>
+<ul>
+  <li>Funcionalidade implementada para geração periódica e segura de backups do sistema e da base de dados, garantindo a recuperação em caso de falhas.</li>
+  <li>Funcionalidades de criação, edição e remoção de usuários concluídas, mantendo o acesso ao sistema atualizado.</li>
+  <li>Funcionalidade de exportação de relatórios em formatos PDF e CSV, permitindo o compartilhamento de resultados com outros departamentos.</li>
+  <li>Implementado um processo automatizado que analisa o texto dos tickets, extrai sugestões e as agrupa por tema, apresentando-as em um dashboard para decisões de roadmap orientadas por dados.</li>
+  <li>Funcionalidade para filtrar insights por cliente, produto e data, permitindo a obtenção de análises exclusivas para cada cenário.</li>
+  <li>Dashboard com a visualização de insights prescritivos gerados por IA para a equipe de produto, visando identificar melhorias e oportunidades no sistema (focado em solicitações de melhoria).</li>
+  <li>Funcionalidade para visualizar a previsão de tickets sob risco de extrapolar o SLA, permitindo ações preventivas por parte do gestor de suporte.</li>
+  <li>Módulo para identificar e listar as causas raiz mais comuns dos tickets, auxiliando no planejamento de treinamentos e melhorias de produto.</li>
+  <li>Funcionalidade para analisar a sazonalidade e o volume de tickets ao longo do tempo.</li>
+  <li>Implementado o processo de anonimização automática de dados pessoais genéricos presentes nas descrições dos tickets, garantindo a conformidade com a LGPD.</li>
+  <li>Implementação da tela onde o usuário pode visualizar suas informações, realizar a alteração de senha e exportar logs de acesso.
+  </li>
+  <li>Implementação do endpoint para criação de termo de uso</li>
+</ul>
 
 <h3>Objetivo da aplicação</h3>
 O propósito essencial deste projeto é tratar e modernizar a base de dados legada do cliente, que armazena informações de tickets de suporte, visando a estrita conformidade com a LGPD. Além da adequação legal e segurança dos dados, a aplicação incorporará inteligência artificial (IA) para gerar métricas e insights.
@@ -780,8 +1077,29 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARD
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
     <div>
-        <img src="https://skillicons.dev/icons?i=html,css,vuejs,typescript,yarn,git,spring,java,maven,vscode,eclipse,docker,python,postgresql,mongodb"/><br>
-    </div>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+        <a href="https://vuejs.org/" target="_blank"><img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js"></a>
+        <a href="https://www.typescriptlang.org/docs/handbook/2/objects.html" target="_blank"><img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></a>
+        <a href="https://yarnpkg.com/" target="_blank"><img src="https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn"></a>
+        <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+        <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" alt="Spring Boot"></a>
+        <a href="https://docs.oracle.com/en/java/javase/17/" target="_blank"><img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"></a>
+        <a href="https://maven.apache.org/" target="_blank"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white" alt="Maven"></a>
+        <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
+        <a href="https://eclipseide.org/" target="_blank"><img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse IDE"></a>
+        <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+        <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+        <a href="https://duckdb.org/" target="_blank"><img src="https://img.shields.io/badge/DuckDB-DD4631?style=for-the-badge&logo=duckdb&logoColor=white" alt="DuckDB"></a>
+        <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+        <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
+        <a href="https://taiga.io/" target="_blank"><img src="https://img.shields.io/badge/Taiga-4E8098?style=for-the-badge&logo=taiga&logoColor=white" alt="Taiga"></a>
+        <a href="https://www.red-gate.com/products/flyway/community/" target="_blank"><img src="https://img.shields.io/badge/Flyway-CC0500?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway"></a>
+        <a href="https://sonarcloud.io/login" target="_blank"><img src="https://img.shields.io/badge/SonarCloud-F37243?style=for-the-badge&logo=sonarcloud&logoColor=white" alt="SonarCloud"></a>
+        <a href="https://jupyter.org/" target="_blank"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook"></a>
+        <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
+   </div>
 </div>
 
 Nome|Descrição|
@@ -792,6 +1110,7 @@ Nome|Descrição|
 [TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.|
 [YARN](https://yarnpkg.com/)|Yarn pode significar o gerenciador de pacotes para JavaScript ou o gerenciador de recursos do Hadoop, dependendo do contexto. Como gerenciador de pacotes, o Yarn ajuda a instalar, gerenciar e compartilhar dependências (pacotes de código) para projetos JavaScript, sendo uma alternativa ao npm. Como gerenciador de recursos (em sistemas distribuídos), YARN é a sigla para "Yet Another Resource Negotiator", responsável pelo gerenciamento de recursos e agendamento de tarefas.|
 |[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
+|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
 |[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
 |[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
@@ -799,12 +1118,13 @@ Nome|Descrição|
 |[ECLIPSE](https://eclipseide.org/)|Eclipse IDE é um Ambiente de Desenvolvimento Integrado (IDE) de código aberto, usado principalmente para desenvolver aplicações Java, mas que também suporta outras linguagens por meio de plugins|
 |[DOCKER](https://www.docker.com/)|O Docker é uma plataforma de software que permite criar, testar e implantar aplicativos rapidamente, empacotando-os em unidades padronizadas chamadas contêineres.|
 |[PYTHON](https://www.python.org/)|Python é uma linguagem de programação de alto nível, interpretada e de uso geral, conhecida por sua sintaxe clara e legível, o que a torna fácil de aprender e usar. É amplamente aplicada em diversas áreas, como desenvolvimento web, ciência de dados, inteligência artificial, machine learning e automação, devido à sua versatilidade e à vasta quantidade de bibliotecas e frameworks disponíveis. A linguagem suporta múltiplos paradigmas de programação, incluindo orientação a objetos, e é executada em várias plataformas. |
+|[DUNCKDB](https://duckdb.org/)|DuckDB é um banco de dados analítico embutido (OLAP) e de código aberto, otimizado para consultas complexas e análises rápidas de dados diretamente na memória, sem a necessidade de configurar um servidor.|
 |[POSTGRESQL](https://www.postgresql.org/)|PostgreSQL é um sistema de gerenciamento de banco de dados relacional de objeto (ORDBMS) de código aberto, robusto e confiável, conhecido por seu desempenho de nível empresarial e conformidade com os padrões SQL. Ele suporta tanto dados relacionais (SQL) quanto não relacionais (como JSON) e é altamente extensível, permitindo personalizações com tipos de dados e funções customizadas. |
 |[MONGODB](https://www.mongodb.com/)|MongoDB é um sistema de gerenciamento de banco de dados (SGBD) NoSQL, de código aberto, que armazena dados em documentos flexíveis no formato BSON (uma versão binária do JSON) em vez de tabelas e linhas como os bancos de dados relacionais. |
 |[TAIGA](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
 |[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Migrations no Flyway são scripts de SQL versionados que descrevem mudanças incrementais no esquema de um banco de dados, como criar tabelas, adicionar colunas ou remover índices.|
 |[SONAR-CLOUD](https://sonarcloud.io/login)|SonarCloud é uma ferramenta de análise de código estática como serviço (SaaS) que automatiza a revisão de código em mais de 30 linguagens para detectar problemas de manutenção, confiabilidade e segurança|
-|[JUPYTER-NOTEBOOK](https://jupyter.org/)|SJupyter Notebook é um aplicativo web de código aberto que permite criar e compartilhar documentos interativos, combinando código executável, texto explicativo (usando Markdown), equações, imagens e visualizações.|
+|[SWAGGER-DOC](https://swagger.io/)|É a ferramenta mais utilizada para implementar a OpenAPI Specification (OAS), que é um formato padronizado para descrever APIs.|
 
 
 <br>
