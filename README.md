@@ -212,7 +212,7 @@ Os objetivos da aplicação são: carregar o arquivo ".csv" para trazer uma maio
 </ul>
 
 
-Link da aplicação: <a href="https://github.com/wiz-fatec/api-">Sistema TG Manager</a>
+Link da aplicação: <a href="https://github.com/wiz-fatec/api-2BD">Sistema TG Manager</a>
 
 <div style="text-align: center;">
     <b>Tecnologias Utilizadas no Projeto</b>
