@@ -63,7 +63,7 @@ Busco me especializar em arquitetura de software para consolidar minha base téc
 
 <h2 style="text-align: center;">💻PROJETOS API Fatec</h2>
 
-<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360° (2023-1)</h2>
+<h2 style="text-align: center;">Projeto: Sistema de Avaliação 360° (Primeiro semestre 2023-1)</h2>
 
 <h3>Empresa</h3>
 Trabalho realizado como Projeto Interno, tendo o Professor Lucas Nadalete como Cliente Principal.
@@ -186,7 +186,7 @@ Nome|Descrição|
 
 <br>
 
-<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação (2023-2)</h2>
+<h2 style="text-align: center;">Projeto: Sistema TG Manager: Gestão Inteligente de Avaliações, Feedbacks e Relatórios para Trabalhos de Graduação (Segundo semestre 2023-2)</h2>
 
 <h3>Empresa</h3>
 Trabalho realizado como Projeto Interno, tendo o Professor Emanuel Mineda como Cliente Principal.
@@ -460,7 +460,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator (2024-1)</h2>
+<h2 style="text-align: center;">Projeto: Dom Rock pipeline configurator (Terceiro semestre 2024-1)</h2>
 
 <h3>Empresa</h3>
 Projeto executado em colaboração com a DomRock.
@@ -692,7 +692,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: GEO- IOT (2024-2)</h2>
+<h2 style="text-align: center;">Projeto: GEO- IOT (Quarto semestre 2024-2)</h2>
 
 <h3>Empresa</h3>
 Projeto executado em colaboração com a ITO1.
@@ -890,7 +890,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: YOUTAN DASH (2025-1)</h2>
+<h2 style="text-align: center;">Projeto: YOUTAN DASH (Quinto semestre 2025-1)</h2>
 
 <h3>Empresa</h3>
 Projeto executado em colaboração com a YOUTAN.
@@ -1044,7 +1044,7 @@ Nome|Descrição|
 
 ---
 
-<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte (2025-2)</h2>
+<h2 style="text-align: center;">Projeto: PARDAL - Insights e Metricas de Tickets de chamados de suporte (Sexto semestre 2025-2)</h2>
 
 <h3>Empresa</h3>
 Projeto executado em colaboração com a Pro4tec.
