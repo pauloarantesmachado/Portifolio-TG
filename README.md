@@ -5,7 +5,7 @@ Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei m
 
 Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade ingressar no mercado de trabalho como desenvolvedor web, atuando com Python e JavaScript. Permaneci nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei atuar como desenvolvedor Java e a lidar com o banco de dados Oracle.
 
-Atualmente, estou efetivado na <a href="https://www.fitec.org.br/home">Fitec (Inovações Tecnológicas)</a>, onde continuo contribuindo para um projeto no setor de telecomunicações, utilizando Java e Oracle como banco de dados.
+Atualmente, estou efetivado na <a href="https://www.fitec.org.br">Fitec (Inovações Tecnológicas)</a>, onde continuo contribuindo para um projeto no setor de telecomunicações, utilizando Java e Oracle como banco de dados.
 
 <h2>Contato</h2>
 
