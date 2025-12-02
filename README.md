@@ -4,7 +4,7 @@
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em dezembro de 2025.
 O principal motivador que me trouxe à Fatec foi a recomendação de ex-alunos.
 
-Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade ingressar no mercado de trabalho como desenvolvedor web, atuando com Python e JavaScript. Permaneci nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei atuar como desenvolvedor Java e a lidar com o banco de dados Oracle.
+Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade de ingressar no mercado de trabalho como desenvolvedor web, atuando com Python e JavaScript. Permaneci nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei a atuar como desenvolvedor Java e a lidar com o banco de dados Oracle.
 
 Atualmente, estou efetivado na <a href="https://www.fitec.org.br">Fitec (Inovações Tecnológicas)</a>, onde continuo contribuindo para um projeto no setor de telecomunicações, utilizando Java e Oracle como banco de dados.
 
@@ -17,8 +17,8 @@ Atualmente, estou efetivado na <a href="https://www.fitec.org.br">Fitec (Inovaç
 ---
 
 <h2>Meus principais conhecimentos</h2>
-Tenho experiência prática no desenvolvimento web Java, com foco em backend, e busco constante aprimoramento nesta área.
-Desde o segundo semestre da FATEC, após o primeiro contato com a linguagem java, direcionei meus estudos e aprofundamento de forma contínua para o universo do desenvolvimento. Atualmente, minha stack tecnológica é a seguinte:
+Tenho experiência prática no desenvolvimento web Java, com foco em backend, e busco constantemente o aprimoramento nesta área.
+Desde o segundo semestre da FATEC, após o primeiro contato com a linguagem Java, direcionei meus estudos e aprofundamento de forma contínua para o universo do desenvolvimento. Atualmente, minha stack tecnológica é a seguinte:
 
 | Nome da Tecnologia | Breve Descrição |
 | :--- | :--- |
@@ -43,7 +43,7 @@ Desde o segundo semestre da FATEC, após o primeiro contato com a linguagem java
 <h2>Minhas principais experiências</h2>
 Minha trajetória como desenvolvedor iniciou com o Front-end, onde adquiri experiência com o framework Angular. Evoluí para o Back-end em projetos, utilizando Flask e Python.
 
-Atualmente, minha atuação está concentrada no desenvolvimento e manutenção de softwares no setor de telecomunicações. Possuo experiência prática e em desenvolvimento em:
+Atualmente, minha atuação está concentrada no desenvolvimento e manutenção de softwares no setor de telecomunicações. Possuo experiência prática no desenvolvimento em:
 
 - Desenvolvimento Core: Atuo com a linguagem Java e o banco de dados Oracle, incluindo o desenvolvimento e manutenção de sistemas legados.
 
