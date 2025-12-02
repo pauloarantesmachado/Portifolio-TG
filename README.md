@@ -2,6 +2,7 @@
 
 <h2>Introdução</h2>
 Sou estudante de Banco de Dados na Fatec de São José dos Campos, SP. Iniciei meu curso em março de 2023, com previsão de conclusão em dezembro de 2025.
+O principal motivador que me trouxe à Fatec foi a recomendação de ex-alunos.
 
 Minha trajetória profissional teve início em março de 2023, quando tive a oportunidade ingressar no mercado de trabalho como desenvolvedor web, atuando com Python e JavaScript. Permaneci nesse primeiro projeto por um ano, até que, em março de 2024, recebi a chance de atuar em um novo projeto na área de telecomunicações. Neste novo desafio, passei atuar como desenvolvedor Java e a lidar com o banco de dados Oracle.
 
@@ -66,10 +67,11 @@ Busco me especializar em arquitetura de software para consolidar minha base téc
 <h2 style="text-align: center;">Projeto: Sistema de Avaliação 360° (Primeiro semestre 2023-1)</h2>
 
 <h3>Empresa</h3>
-Trabalho realizado como Projeto Interno, tendo o Professor Lucas Nadalete como Cliente Principal.
+Trabalho realizado como projeto interno, tendo o Professor Lucas Nadalete como Cliente Principal.
 
 <h3>Problema</h3>
-A PBLTeX, especializada em cursos práticos de ensino aplicando PBL (Problem Based Learning) desenvolveu uma dinâmica de Avaliação Democratizada baseada na Avaliação 360º. O desafio será de apoiar a instituição a levantar, especificar e desenvolver uma solução computacional que viabilize a aplicação da Avaliação.
+O problema central que a PBLTeX enfrenta é a incompatibilidade entre uma metodologia de ensino (PBL com Avaliação Democratizada 360º) e um processo de coleta de dados obsoleto, manual e em papel.
+A principal dor do cliente é a impossibilidade de gerenciar e validar as Avaliações 360º de forma eficiente, justa e em escala, devido ao uso de formulários físicos.
 
 <h3>Objetivo da aplicação</h3>
 O programa viabiliza a avaliação dos alunos, se baseando na metodologia Avaliação 360º. Para liberar o acesso ao programa, teremos 2 niveis de acesso: Administrador e Aluno. Dependendo do tipo de acesso, havera opções de tela diferentes. A tela "aluno" possibilitará ao usuário ver a turma e o grupo ao qual está inserido, avaliar os membros do seu grupo e se auto-avaliar, podendo ver os resultados das avaliações realizadas por ele. O "Administrador" terá atribuições de criar as turmas, grupos e o registro dos alunos, requisitar a avaliação e observar os resultados da mesma, atraves de dashboards operacionais e gerenciais.
@@ -113,12 +115,12 @@ Link da aplicação: <a href="https://github.com/wiz-fatec/avaliacao-360">Avalia
 
 |Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[PYTHON](https://docs.python.org/pt-br/dev/faq/general.html)|Python é uma linguagem de programação de alto nível, interpretada e orientada a objetos. É uma das linguagens de programação mais populares e usadas em diversos campos, como desenvolvimento web, ciência de dados, automação e machine learning. No projeto, utilizamos o PySimpleGUI, uma biblioteca Python que simplifica a criação de interfaces gráficas para aplicativos, tornando o desenvolvimento mais rápido e prático.|
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto.|
+|[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git|
+|[PYTHON](https://docs.python.org/pt-br/dev/faq/general.html)|Python foi a linguagem de programação utilizada para desenvolver o sistema, e a biblioteca PySimpleGUI foi empregada especificamente para a criação das interfaces gráficas.|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento.|
+|[TRELLO](https://trello.com/)|O Trello foi a ferramenta utilizada para a gestão das tarefas, aplicando-se a metodologia Kanban para o acompanhamento dos cards.|
 
 
 <br>
@@ -168,10 +170,10 @@ Também apoiei o time no entendimento e uso do Git, explicando como funciona o v
 
 <h2>Hard Skills</h2>
 
-|Nome|Descrição|
-| :--------: | :-------- |
-|Python|Durante o projeto, trabalhei com a biblioteca PySimpleGUI, que me ajudou a criar as interfaces da aplicação de maneira simples e direta. Com ela, consegui montar as telas e deixar o sistema mais fácil de usar. Também aprendi bastante sobre a linguagem Python e seus recursos. Foi uma ótima chance de aplicar, na prática, o que vinha estudando. Esse projeto me ajudou a entender melhor como usar o Python em uma aplicação real, de forma didática e bem próxima do dia a dia de um desenvolvedor.|
-|Git|Durante o projeto, participei da criação de branches e ajudei minha equipe com a organização dos commits e o uso de Pull Requests. Além disso, aprendi na prática como funciona o versionamento de branches no Git e conheci recursos que até então não tinha usado, como o git stash, que me ajudou a guardar alterações temporárias, e o git cherry-pick, que permite aplicar um commit específico em outra branch. Esses aprendizados foram importantes para melhorar minha organização no controle de versões e colaborar melhor com o time.|
+|Nome|Descrição|Nível
+| :--------: | :-------- | :-------- |
+|Python|Durante o projeto, trabalhei com a biblioteca PySimpleGUI, que me ajudou a criar as interfaces da aplicação de maneira simples e direta. Com ela, consegui montar as telas e deixar o sistema mais fácil de usar. Também aprendi bastante sobre a linguagem Python e seus recursos. Foi uma ótima chance de aplicar, na prática, o que vinha estudando. Esse projeto me ajudou a entender melhor como usar o Python em uma aplicação real, de forma didática e bem próxima do dia a dia de um desenvolvedor.|★★★★☆|
+|Git|Durante o projeto, participei da criação de branches e ajudei minha equipe com a organização dos commits e o uso de Pull Requests. Além disso, aprendi na prática como funciona o versionamento de branches no Git e conheci recursos que até então não tinha usado, como o git stash, que me ajudou a guardar alterações temporárias, e o git cherry-pick, que permite aplicar um commit específico em outra branch. Esses aprendizados foram importantes para melhorar minha organização no controle de versões e colaborar melhor com o time.|★★★★☆|
 ---
 <br>
 
@@ -192,7 +194,7 @@ Nome|Descrição|
 Trabalho realizado como Projeto Interno, tendo o Professor Emanuel Mineda como Cliente Principal.
 
 <h3>Problema</h3>
-Desenvolver uma aplicação que leia um arquivo ".csv" com respostas vindas de um formulário respondido pelos alunos a respeito do Trabalho de Graduação. O objetivo é desenvolver uma aplicação que facilite a visualização de dados auxilie na questão de aplicação de notas e feedbacks gerando relatórios que se encaixem ao cliente.
+O processo de gestão de TG era ineficiente, pois era realizado totalmente via planilhas Excel. Isso gerava um grande obstáculo na análise e acompanhamento da correta alocação e vínculo dos Trabalhos de Graduação (TGs) com seus orientadores.
 
 <h3>Objetivo da aplicação</h3>
 Os objetivos da aplicação são: carregar o arquivo ".csv" para trazer uma maior facilidade na visualização dos dados e fornecer as possibilidades de anotações nas avaliações dos Trabalhos de Graduação, tais como feedback e nota do aluno em sua entrega. Também será possível agendar as entregas e definir as quantidades de entregas visto que a nota será baseado em uma média de notas que serão distribuidas nestas entregas. Por fim gerar relatórios com informações úteis ao usário, para que consiga gerenciar as turmas e facilitar a rotina e pendências das apresentações.
@@ -230,14 +232,14 @@ Link da aplicação: <a href="https://github.com/wiz-fatec/api-2BD">Sistema TG M
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web|[FIGMA](https://www.figma.com/pt-br/)|
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
-|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
-|[POSTGRESQL](https://www.postgresql.org/docs/)|PostgreSQL é uma solução de banco de dados crucial que ajuda os desenvolvedores a manter a integridade de seus dados, gerenciar com mais facilidade cargas de trabalho de todos os tamanhos e dimensionar conforme necessário.|
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX).|
+|[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto|
+|[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|A linguagem Java foi utilizada para a implementação da regra de negócio (ou backend) do sistema, e o framework JavaFX foi empregado para a criação das interfaces gráficas de usuário (GUIs).|
+|[MAVEN](https://maven.apache.org/)| A gestão de dependências e a criação do artefato final (JAR) da aplicação foram realizadas por meio do Maven.|
+|[POSTGRESQL](https://www.postgresql.org/docs/)|O PostgreSQL foi o Sistema Gerenciador de Banco de Dados (SGBD) escolhido para o projeto.|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o IntelliJ como IDE para o JAVA|
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -441,12 +443,12 @@ Essa funcionalidade foi pensada para agilizar o acesso às informações e torna
 
 <h2>Hard Skills</h2>
 
-|Nome|Descrição|
-| :--------: | :-------- |
-|Java| Durante o desenvolvimento do projeto, trabalhei com o JavaFX para criar as telas da aplicação. Com o JavaFX, criei a tela home, botões de navegação, campos de formulário, áreas de visualização de dados e outras funcionalidades visuais que compõem o sistema.Além disso, seguimos o padrão de arquitetura MVC (Model-View-Controller), o que ajudou bastante a organizar o projeto. A ideia desse padrão é separar bem as partes do sistema: a View, que é a parte visual (as telas); o Model, que cuida das regras de negócio e da lógica da aplicação; e o Controller, que faz a ponte entre as ações do usuário e o que precisa ser processado.Também aprendi a trabalhar com o JDBC, que é a tecnologia que permite fazer a conexão da aplicação com o banco de dados. Aprendi como configurar a conexão, enviar dados, fazer buscas, atualizar e apagar registros diretamente no banco PostgreSQL.Outra parte importante do projeto foi a criação de relatórios em PDF. Para isso, utilizamos a biblioteca OpenPDF, que me permitiu gerar arquivos de forma automática com os dados da aplicação. Aprendi a montar o conteúdo dos relatórios, formatar textos, organizar em páginas e salvar os arquivos diretamente no computador do usuário.Também tive a oportunidade de aprender como lidar com arquivos CSV, que são muito comuns em sistemas que precisam importar dados. Usamos a biblioteca Commons CSV para facilitar esse processo. Criei uma lógica onde o usuário pode fazer o upload de um arquivo CSV, e o sistema faz a leitura linha por linha, tratando os dados e depois armazenando tudo corretamente no banco. Aprendi a validar os dados, corrigir possíveis erros e garantir que tudo fosse salvo da forma certa.|
-|Maven| Durante o projeto, utilizei o Maven, que é o gerenciador de builds do Java. Com ele, consegui organizar melhor as dependências da aplicação, ou seja, as bibliotecas e ferramentas externas que usamos no projeto, como o PostgreSQL, o OpenPDF, o Lombok e o Commons CSV. Além disso, usei comandos do Maven para executar testes, compilar o projeto e gerar o arquivo .jar da aplicação.|
-|PostgreSql|Utilizamos o SGBD postegreSql, utlizamos comandos para DDL(Data definition language) para criamos tabelas adicionarmos colunas e também usamos os comando DML(Data Manipulation) para realizarmos inserts e updates nas tabelas e por ultimo os commandos DQL(Data query language), para realizarmos consultas nas tabelas |
-|Git|Atuei na criação de branches e prestei apoio à minha equipe em relação à gestão de commits e Pull Requests.|
+|Nome|Descrição|Nivel
+| :--------: | :-------- | :-------- |
+|Java| Durante o desenvolvimento do projeto, trabalhei com o JavaFX para criar as telas da aplicação. Com o JavaFX, criei a tela home, botões de navegação, campos de formulário, áreas de visualização de dados e outras funcionalidades visuais que compõem o sistema.Além disso, seguimos o padrão de arquitetura MVC (Model-View-Controller), o que ajudou bastante a organizar o projeto. A ideia desse padrão é separar bem as partes do sistema: a View, que é a parte visual (as telas); o Model, que cuida das regras de negócio e da lógica da aplicação; e o Controller, que faz a ponte entre as ações do usuário e o que precisa ser processado.Também aprendi a trabalhar com o JDBC, que é a tecnologia que permite fazer a conexão da aplicação com o banco de dados. Aprendi como configurar a conexão, enviar dados, fazer buscas, atualizar e apagar registros diretamente no banco PostgreSQL.Outra parte importante do projeto foi a criação de relatórios em PDF. Para isso, utilizamos a biblioteca OpenPDF, que me permitiu gerar arquivos de forma automática com os dados da aplicação. Aprendi a montar o conteúdo dos relatórios, formatar textos, organizar em páginas e salvar os arquivos diretamente no computador do usuário.Também tive a oportunidade de aprender como lidar com arquivos CSV, que são muito comuns em sistemas que precisam importar dados. Usamos a biblioteca Commons CSV para facilitar esse processo. Criei uma lógica onde o usuário pode fazer o upload de um arquivo CSV, e o sistema faz a leitura linha por linha, tratando os dados e depois armazenando tudo corretamente no banco. Aprendi a validar os dados, corrigir possíveis erros e garantir que tudo fosse salvo da forma certa.|★★★☆☆|
+|Maven| Durante o projeto, utilizei o Maven, que é o gerenciador de builds do Java. Com ele, consegui organizar melhor as dependências da aplicação, ou seja, as bibliotecas e ferramentas externas que usamos no projeto, como o PostgreSQL, o OpenPDF, o Lombok e o Commons CSV. Além disso, usei comandos do Maven para executar testes, compilar o projeto e gerar o arquivo .jar da aplicação.|★★★☆☆|
+|PostgreSql|Utilizamos o SGBD postegreSql, utlizamos comandos para DDL(Data definition language) para criamos tabelas adicionarmos colunas e também usamos os comando DML(Data Manipulation) para realizarmos inserts e updates nas tabelas e por ultimo os commandos DQL(Data query language), para realizarmos consultas nas tabelas |★★★☆☆|
+|Git|Atuei na criação de branches e prestei apoio à minha equipe em relação à gestão de commits e Pull Requests.|★★★★☆|
 ---
 <br>
 
@@ -541,21 +543,21 @@ Link da aplicação:<a href="https://github.com/wiz-fatec/dom-rock-pipeline-conf
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
-|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
-|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
-|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
-[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
-[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
-|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
-|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
-|[MySQL](https://www.mysql.com/)|MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto, ou seja, um software que permite armazenar e organizar dados em tabelas, com relacionamentos entre elas. Ele é amplamente utilizado em aplicações web e em diversos outros contextos, como em sites de comércio eletrônico, redes sociais e aplicativos.
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
-|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Utilizou-se o Flyway para gerar as migrations e versionar o banco de dados.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estilização, o design e o apresentação visual da página web foram definidos utilizando CSS (Cascading Style Sheets).|
+|[VUE](https://vuejs.org/)|O framework Vue.js foi escolhido para o desenvolvimento frontend da aplicação. Ele foi implementado seguindo o padrão SPA (Single Page Application), facilitando a construção interativa das telas.|
+|[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|A linguagem TypeScript foi adotada no front-end para garantir maior segurança e escalabilidade ao código, devido ao seu sistema de tipagem estática |
+|[GIT](https://git-scm.com/)| O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto|
+|[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|O framework Spring Boot foi adotado no back-end para facilitar a configuração e o desenvolvimento rápido da aplicação. A implementação seguiu o padrão de Arquitetura em Camadas|
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)| A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação. |
+|[MAVEN](https://maven.apache.org/)| O Maven foi adotado como ferramenta de gerenciamento de dependências para o projeto Java, facilitando a inclusão e o controle das bibliotecas externas. |
+|[MySQL](https://www.mysql.com/)|A solução de banco de dados relacional adotada para o sistema foi o MySQL (SGBD).|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento.|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o IntelliJ como IDE para o JAVA|
+|[TRELLO](https://trello.com/)|O Trello foi a ferramenta utilizada para a gestão das tarefas, aplicando-se a metodologia Kanban para o acompanhamento dos cards.|
 
 <br>
 <h3>Contribuições Pessoais</h3>
@@ -672,13 +674,13 @@ O token fica disponível enquanto o usuário estiver logado.
 
 <h2>Hard Skills</h2>
 
-Nome|Descrição|
-| :-------- | :-------- |
-|FlayWay|Utilizei o flay way para a automatização das migrations no nosso banco.|
-|Vue|Utilizei o Vue para a criação dos componentes e das telas, organizando as rotas de forma estruturada e seguindo o padrão SPA (Single Page Application). Com HTML e CSS, consegui construir o corpo da aplicação e aplicar a estilização dos componentes. O Vue também me permitiu utilizar recursos reativos, deixando a aplicação mais dinâmica.|
-|Spring|Com o Spring Boot, consegui criar o endpoint responsável pelo tratamento do arquivo CSV. A aplicação recebe o arquivo por meio de um controller, que aciona um service responsável por processar o conteúdo e retornar os dados da configuração, juntamente com a lista de colunas relacionadas a esse projeto.|
-|JWT token|Na tela de login, realizei uma requisição para o backend enviando o username e a senha. Em caso de autenticação bem-sucedida, recebo um token, que é armazenado no localStorage, permitindo que o usuário tenha acesso às funcionalidades da aplicação de acordo com suas permissões.|
-|Axios| Utilizei a biblioteca Axios para realizar as chamadas dos métodos HTTP para a aplicação desenvolvida com Spring Boot, facilitando a comunicação entre o front-end e o back-end.|
+Nome|Descrição|Nível
+| :-------- | :-------- |:-------- |
+|FlayWay|Utilizei o flay way para a automatização das migrations no nosso banco.|★★★★☆
+|Vue|Utilizei o Vue para a criação dos componentes e das telas, organizando as rotas de forma estruturada e seguindo o padrão SPA (Single Page Application). Com HTML e CSS, consegui construir o corpo da aplicação e aplicar a estilização dos componentes. O Vue também me permitiu utilizar recursos reativos, deixando a aplicação mais dinâmica.|★★★☆☆
+|Spring|Com o Spring Boot, consegui criar o endpoint responsável pelo tratamento do arquivo CSV. A aplicação recebe o arquivo por meio de um controller, que aciona um service responsável por processar o conteúdo e retornar os dados da configuração, juntamente com a lista de colunas relacionadas a esse projeto.|★★★☆☆
+|JWT token|Na tela de login, realizei uma requisição para o backend enviando o username e a senha. Em caso de autenticação bem-sucedida, recebo um token, que é armazenado no localStorage, permitindo que o usuário tenha acesso às funcionalidades da aplicação de acordo com suas permissões.|★★★☆☆
+|Axios| Utilizei a biblioteca Axios para realizar as chamadas dos métodos HTTP para a aplicação desenvolvida com Spring Boot, facilitando a comunicação entre o front-end e o back-end.|★★★☆☆
 
 
 <h2>Soft Skills</h2>
@@ -698,7 +700,7 @@ Nome|Descrição|
 Projeto executado em colaboração com a ITO1.
 
 <h3>Problema</h3>
-A IOT1 nos procurou com a necessidade urgente de desenvolver uma aplicação robusta para processar um volume massivo de dados, que atinge a marca de aproximadamente 500.000 novas linhas (registros) relacionadas à geolocalização.
+A IOT1 nos procurou com a necessidade de desenvolver uma aplicação robusta para processar um volume massivo de dados, que atinge a marca de aproximadamente 500.000 novas linhas (registros) relacionadas à geolocalização.
 Este cenário impõe desafios críticos de armazenamento, escalabilidade e desempenho ao banco de dados
 
 <h3>Objetivo da aplicação</h3>
@@ -763,21 +765,21 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/geo-iot-2024-1">G
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
-|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
-|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
-[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
-[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
-|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
-|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
-|[ORACLE-CLOUD](https://www.oracle.com/br/cloud/)|A Oracle Cloud Infrastructure (OCI), frequentemente referida como Oracle Cloud, é uma plataforma de computação em nuvem que oferece uma vasta gama de serviços para empresas. Permite criar e executar aplicações em um ambiente escalável, seguro, de alto desempenho e altamente disponível, segundo a Oracle.|
-|[REDIS](https://redis.io/)|Redis é um sistema de armazenamento de dados em memória (in-memory) de código aberto que funciona como um banco de dados, cache e corretor de mensagens.
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
-|[TRELLO](https://trello.com/)|O Trello é uma plataforma de gerenciamento de projetos baseada no conceito Kanban, utilizando quadros, listas e cartões para organizar tarefas de forma ágil.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estilização, o design e o apresentação visual da página web foram definidos utilizando CSS (Cascading Style Sheets).|
+|[VUE](https://vuejs.org/)|O framework Vue.js foi escolhido para o desenvolvimento frontend da aplicação. Ele foi implementado seguindo o padrão SPA (Single Page Application), facilitando a construção interativa das telas.|
+|[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|O desenvolvimento front-end foi realizado utilizando a linguagem TypeScript para a codificação|.
+|[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto|
+|[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)| O framework Spring Boot foi adotado no back-end para facilitar a configuração e o desenvolvimento rápido da aplicação. A implementação seguiu o padrão de Arquitetura em Camadas|
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|A linguagem Java foi utilizada para a implementação da regra do back-end do sistema|
+|[MAVEN](https://maven.apache.org/)|O Maven foi adotado como ferramenta de gerenciamento de dependências para o projeto Java, facilitando a inclusão e o controle das bibliotecas externas.|
+|[ORACLE-CLOUD](https://www.oracle.com/br/cloud/)|O Sistema Gerenciador de Banco de Dados (SGBD) utilizado foi o Oracle Database, hospedado na plataforma Oracle Cloud para maior escalabilidade e disponibilidade.|
+|[REDIS](https://redis.io/)|O Redis foi empregado como um armazenamento em memória (in-memory data store) para implementar o mecanismo de cache da aplicação, melhorando o desempenho e reduzindo a latência.|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o IntelliJ como IDE para o JAVA.|
+|[TRELLO](https://trello.com/)|O Trello foi a ferramenta utilizada para a gestão das tarefas, aplicando-se a metodologia Kanban para o acompanhamento dos cards.|
 
 
 <br>
@@ -870,14 +872,14 @@ Como resultado, consegui reduzir o tempo total de processamento para aproximadam
 
 <h2>Hard Skills</h2>
 
-Nome|Descrição|
-| :-------- | :-------- |
-|Spring-Batch|Com o Spring Batch, implementei um step responsável pela leitura, validação e escrita de dados no banco de forma muito mais performática. Essa abordagem permitiu o processamento eficiente de arquivos CSV com grandes volumes de dados. Antes da adoção do Spring Batch, o tempo de inserção no banco chegava a aproximadamente 7 horas. Após a reestruturação utilizando esse framework, consegui reduzir o tempo de processamento para cerca de 5 minutos.|
-|Spring-JPA|Com o spring JPA eu mapeie um entitade de Person e criei um repository que implementa a inteface JapaRepository que posssui os metodos pontos de crud, porém também crei outros metodos para realizar um filtragem.|
-|Redis| Utilizei o Redis como banco de dados em cache para aumentar a velocidade no cálculo de paradas com base nos dados de localização. Ao armazenar temporariamente as informações em memória, foi possível reduzir significativamente o tempo de acesso e processamento.|
-|Docker-Compose| Utilizei o Docker Compose para configurar e executar um serviço do Redis, além de incluir uma interface gráfica, para consultas no redis.
-|Oracle-Cloud|Criamos um banco de dados na Oracle Cloud com o objetivo de centralizar as consultas e o armazenamento de dados do projeto.|
-|Test unitários|Adotamos a prática de testes unitários na aplicação, o que contribuiu significativamente para a redução de bugs durante o desenvolvimento.|
+Nome|Descrição|Nível
+| :-------- | :-------- |:-------- |
+|Spring-Batch|Com o Spring Batch, implementei um step responsável pela leitura, validação e escrita de dados no banco de forma muito mais performática. Essa abordagem permitiu o processamento eficiente de arquivos CSV com grandes volumes de dados. Antes da adoção do Spring Batch, o tempo de inserção no banco chegava a aproximadamente 7 horas. Após a reestruturação utilizando esse framework, consegui reduzir o tempo de processamento para cerca de 5 minutos.|★★★★☆|
+|Spring-JPA|Com o spring JPA eu mapeie um entitade de Person e criei um repository que implementa a inteface JapaRepository que posssui os metodos pontos de crud, porém também crei outros metodos para realizar um filtragem.|★★★★★|
+|Redis| Utilizei o Redis como banco de dados em cache para aumentar a velocidade no cálculo de paradas com base nos dados de localização. Ao armazenar temporariamente as informações em memória, foi possível reduzir significativamente o tempo de acesso e processamento.|★★★☆☆
+|Docker-Compose| Utilizei o Docker Compose para configurar e executar um serviço do Redis, além de incluir uma interface gráfica, para consultas no redis.|★★★★★|
+|Oracle-Cloud|Criamos um banco de dados na Oracle Cloud com o objetivo de centralizar as consultas e o armazenamento de dados do projeto.|★★★★☆|
+|Test unitários|Adotamos a prática de testes unitários na aplicação, o que contribuiu significativamente para a redução de bugs durante o desenvolvimento.|★★★★☆|
 
 
 <h2>Soft Skills</h2>
@@ -961,31 +963,33 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">
         <a href="https://junit.org/junit5/" target="_blank"><img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"></a>
         <a href="https://site.mockito.org/" target="_blank"><img src="https://img.shields.io/badge/Mockito-000000?style=for-the-badge&logo=mockito&logoColor=white" alt="Mockito"></a>
         <a href="https://vitest.dev/" target="_blank"><img src="https://img.shields.io/badge/Vitest-6E9411?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest"></a>
+        <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
     </div>
 </div>
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|Figma é um editor gráfico de vetor e prototipagem de projetos de design baseado principalmente no navegador web.
-|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
-|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
-[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
-[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
-|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
-|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|IntelliJ IDEA é um ambiente de desenvolvimento integrado (IDE) escrito em Java para o desenvolvimento de software de computador escrito em Java, Kotlin, Groovy e outras linguagens baseadas em JVM.|
-|[VERCEL](https://vercel.com/)|A Vercel é uma plataforma de deploy e hospedagem voltada principalmente para aplicações web.|
-|[ORACLEDB](https://www.oracle.com/br/cloud/)|É um sistema de gerenciamento de banco de dados relacional (SGBD) desenvolvido pela empresa Oracle Corporation.É um dos bancos de dados mais usados no mundo, especialmente em grandes empresas, por causa da sua performance, segurança, estabilidade e suporte a altas cargas de dados.|
-|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|O Flyway é uma ferramenta de migração e versionamento de banco de dados. Ele ajuda equipes de desenvolvimento a gerenciar alterações no esquema do banco de dados de forma organizada e segura.|
-|[APACHESPARK](https://spark.apache.org/)|O Apache Spark é um framework de processamento de dados em larga escala, projetado para ser rápido, distribuído e fácil de usar.Ele é muito utilizado em big data, ciência de dados e machine learning, pois consegue processar grandes volumes de dados de forma paralela (em vários nós de um cluster) e muito mais rápida do que ferramentas tradicionais como o Hadoop MapReduce.|
-|[TAIGA](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
-|[JUNIT](https://junit.org/junit5/)|Unit é um framework de código aberto para a linguagem Java, essencial para escrever e executar testes de unidade. Ajuda a garantir que cada parte do código funcione corretamente.|
-|[MOCKITO](https://site.mockito.org/)|Ele é usado em testes de unidade para criar objetos simulados mocks de dependências externas, isolando o código a ser testado.|
-|[VITEST](https://vitest.dev/)|Vitest é um framework de testes unitários moderno, rápido e otimizado para aplicações JavaScript/TypeScript (com foco em ecossistemas como Vue.js e React). É conhecido por sua velocidade e integração nativa com o Vite|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
+|[VUE](https://vuejs.org/)|O framework Vue.js foi escolhido para o desenvolvimento frontend da aplicação. Ele foi implementado seguindo o padrão SPA (Single Page Application), facilitando a construção interativa das telas.|
+|[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|O desenvolvimento do front-end foi realizado utilizando a linguagem TypeScript como principal ferramenta de codificação.|
+|[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto.|
+|[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação.|
+|[MAVEN](https://maven.apache.org/)|A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação.|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
+|[VERCEL](https://vercel.com/)|A plataforma Vercel foi utilizada para realizar a implantação (deploy) e a hospedagem da página de análise de requisitos.|
+|[ORACLEDB](https://www.oracle.com/br/cloud/)|O Oracle Database foi o Sistema Gerenciador de Banco de Dados (SGBD) escolhido para garantir a persistência e a segurança dos dados da aplicação.|
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Utilizou-se o Flyway para gerar as migrations e versionar o banco de dados.|
+|[APACHESPARK](https://spark.apache.org/)|Utilizamos o poder de processamento do Apache Spark para extrair, transformar e carregar (ETL) os dados obtidos da API do Taiga, preparando-os para análise.|
+|[TAIGA](https://taiga.io/)|A plataforma Taiga foi utilizada para o gerenciamento ágil do projeto, incluindo o acompanhamento das User Stories (US) e das tarefas associadas.|
+|[JUNIT](https://junit.org/junit5/)|O framework JUnit foi empregado para a criação e execução de testes unitários com o objetivo de validar algumas das regras de negócio mais críticas do sistema.|
+|[MOCKITO](https://site.mockito.org/)|A ferramenta Mockito foi adotada para a criação de mocks, garantindo o isolamento adequado durante os testes.|
+|[VITEST](https://vitest.dev/)|O framework Vitest foi utilizado para a criação e execução de testes unitários no front-end.|
+|[SWAGGER-DOC](https://swagger.io/)|A ferramenta Swagger (OpenAPI Specification) foi utilizada para documentar a API.|
 
 
 <br>
@@ -1030,9 +1034,9 @@ Desenvolvi uma funcionalidade para exportar os dados do dashboard em formato CSV
 
 Nome|Descrição|
 | :-------- | :-------- |
-|Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|
-|Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|
-|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|
+|Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|★★★★★|
+|Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|★★★★★|
+|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|★★★★★|
 
 
 <h2>Soft Skills</h2>
@@ -1050,7 +1054,7 @@ Nome|Descrição|
 Projeto executado em colaboração com a Pro4tec.
 
 <h3>Problema</h3>
-O desafio central do cliente, a Pro4tec, reside na modernização urgente de sua base de dados de chamados antigos. O projeto é impulsionado por dois pilares: Conformidade e Segurança (LGPD), visando adequar o tratamento e a segurança das informações de suporte à Lei Geral de Proteção de Dados, e Inteligência de Dados, buscando transformar a base em uma fonte estratégica, extraindo métricas e insights para otimizar a gestão de suporte e a tomada de decisão.
+O desafio central do cliente, a Pro4tec, reside na modernização de sua base de dados de chamados antigos. O projeto é impulsionado por dois pilares: Conformidade e Segurança (LGPD), visando adequar o tratamento e a segurança das informações de suporte à Lei Geral de Proteção de Dados, e Inteligência de Dados, buscando transformar a base em uma fonte estratégica, extraindo métricas e insights para otimizar a gestão de suporte e a tomada de decisão.
 
 <h3>Funcionalidades</h3>
 <ul>
@@ -1104,27 +1108,27 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARD
 
 Nome|Descrição|
  :--------: | :-------- |
-|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|HTML (HyperText Markup Language) é a linguagem de marcação de hipertexto que é a base da web. É utilizada para criar a estrutura e o conteúdo de páginas web, definindo como o navegador deve interpretar e exibir informações como texto, imagens, links e outros elementos.
-|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|CSS (Cascading Style Sheets) é a linguagem usada para estilizar elementos HTML e controlar como eles são exibidos no navegador. Ele permite definir cores, fontes, espaçamentos, layouts e outros aspectos da apresentação visual de uma página web. Em resumo, o CSS é responsável por tornar a página web visualmente atraente e organizada.
-[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.
-[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|TypeScript é uma linguagem de programação de código aberto, que é um superconjunto sintático do JavaScript, desenvolvido pela Microsoft. Ele adiciona recursos de tipagem estática ao JavaScript, facilitando a identificação de erros e tornando o desenvolvimento de aplicações mais seguras e complexas.|
-[YARN](https://yarnpkg.com/)|Yarn pode significar o gerenciador de pacotes para JavaScript ou o gerenciador de recursos do Hadoop, dependendo do contexto. Como gerenciador de pacotes, o Yarn ajuda a instalar, gerenciar e compartilhar dependências (pacotes de código) para projetos JavaScript, sendo uma alternativa ao npm. Como gerenciador de recursos (em sistemas distribuídos), YARN é a sigla para "Yet Another Resource Negotiator", responsável pelo gerenciamento de recursos e agendamento de tarefas.|
-|[GIT](https://git-scm.com/)|é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software|
-|[GITHUB](https://github.com/)|O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git, amplamente utilizada para desenvolvimento de software.|
-|[SPRING-BOOT](https://spring.io/projects/spring-boot)|Spring Boot é um framework Java de código aberto que visa facilitar o desenvolvimento de aplicações Spring. Simplifica a configuração e a execução de aplicações, tornando o processo mais rápido e fácil. É utilizado para criar aplicações web, microsserviços, APIs REST e outros tipos de aplicações.
-|[JAVA](https://docs.oracle.com/en/java/javase/17/)|Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Ela tem sido uma escolha popular entre os desenvolvedores há mais de duas décadas, com milhões de aplicações Java em uso hoje. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.|
-|[MAVEN](https://maven.apache.org/)|O Maven é uma ferramenta de gerenciamento, construção e implantação de projetos, amplamente utilizada em projetos Java, mas também compatível com outras linguagens. Ele facilita o processo de desenvolvimento ao automatizar a gestão de dependências, a construção do projeto, a geração de relatórios e a documentação.|
-|[VSCODE](https://code.visualstudio.com/)|O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft|
-|[ECLIPSE](https://eclipseide.org/)|Eclipse IDE é um Ambiente de Desenvolvimento Integrado (IDE) de código aberto, usado principalmente para desenvolver aplicações Java, mas que também suporta outras linguagens por meio de plugins|
-|[DOCKER](https://www.docker.com/)|O Docker é uma plataforma de software que permite criar, testar e implantar aplicativos rapidamente, empacotando-os em unidades padronizadas chamadas contêineres.|
-|[PYTHON](https://www.python.org/)|Python é uma linguagem de programação de alto nível, interpretada e de uso geral, conhecida por sua sintaxe clara e legível, o que a torna fácil de aprender e usar. É amplamente aplicada em diversas áreas, como desenvolvimento web, ciência de dados, inteligência artificial, machine learning e automação, devido à sua versatilidade e à vasta quantidade de bibliotecas e frameworks disponíveis. A linguagem suporta múltiplos paradigmas de programação, incluindo orientação a objetos, e é executada em várias plataformas. |
-|[DUNCKDB](https://duckdb.org/)|DuckDB é um banco de dados analítico embutido (OLAP) e de código aberto, otimizado para consultas complexas e análises rápidas de dados diretamente na memória, sem a necessidade de configurar um servidor.|
-|[POSTGRESQL](https://www.postgresql.org/)|PostgreSQL é um sistema de gerenciamento de banco de dados relacional de objeto (ORDBMS) de código aberto, robusto e confiável, conhecido por seu desempenho de nível empresarial e conformidade com os padrões SQL. Ele suporta tanto dados relacionais (SQL) quanto não relacionais (como JSON) e é altamente extensível, permitindo personalizações com tipos de dados e funções customizadas. |
-|[MONGODB](https://www.mongodb.com/)|MongoDB é um sistema de gerenciamento de banco de dados (SGBD) NoSQL, de código aberto, que armazena dados em documentos flexíveis no formato BSON (uma versão binária do JSON) em vez de tabelas e linhas como os bancos de dados relacionais. |
-|[TAIGA](https://taiga.io/)|O Taiga é uma plataforma de gerenciamento ágil de projetos, parecida com o Jira ou o Trello, mas open source (gratuita e personalizável).|
-|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Migrations no Flyway são scripts de SQL versionados que descrevem mudanças incrementais no esquema de um banco de dados, como criar tabelas, adicionar colunas ou remover índices.|
-|[SONAR-CLOUD](https://sonarcloud.io/login)|SonarCloud é uma ferramenta de análise de código estática como serviço (SaaS) que automatiza a revisão de código em mais de 30 linguagens para detectar problemas de manutenção, confiabilidade e segurança|
-|[SWAGGER-DOC](https://swagger.io/)|É a ferramenta mais utilizada para implementar a OpenAPI Specification (OAS), que é um formato padronizado para descrever APIs.|
+|[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estilização, o design e o apresentação visual da página web foram definidos utilizando CSS (Cascading Style Sheets).|
+|[VUE](https://vuejs.org/)|Vue.js é um framework JavaScript de código aberto e progressivo usado para construir interfaces de usuário e aplicações web. Ele é conhecido por ser fácil de aprender e integrar em projetos existentes.|
+|[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|O desenvolvimento do front-end foi realizado utilizando a linguagem TypeScript como principal ferramenta de codificação.|
+|[YARN](https://yarnpkg.com/)|O gerenciador de pacotes Yarn foi utilizado para controlar as dependências e bibliotecas do projeto front-end|
+|[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto.|
+|[GITHUB](https://github.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto.|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|O framework Spring Boot foi adotado no back-end para facilitar a configuração e o desenvolvimento rápido da aplicação. A implementação seguiu o padrão de Arquitetura em Camadas|
+|[JAVA](https://docs.oracle.com/en/java/javase/17/)|A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação.|
+|[MAVEN](https://maven.apache.org/)|O Maven foi adotado como ferramenta de gerenciamento de dependências para o projeto Java, facilitando a inclusão e o controle das bibliotecas externas.|
+|[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento.|
+|[ECLIPSE](https://eclipseide.org/)|Eclipse foi utilizado como ide para o java no back-end|
+|[DOCKER](https://www.docker.com/)|O Docker foi utilizado para a geração de imagens e contêineres dos seguintes serviços: PostgreSQL, MongoDB, o processo de ETL em Python e o Vault.|
+|[PYTHON](https://www.python.org/)|O Python foi essencial para as atividades de Engenharia de Dados (processos de ETL) e para a Ciência de Dados (criação de modelos de Machine Learning).|
+|[DUNCKDB](https://duckdb.org/)|Empregamos o DuckDB para realizar a conexão e consulta de dados de forma rápida e eficiente dentro do processo de back-end da aplicação.|
+|[POSTGRESQL](https://www.postgresql.org/)|Adotamos o PostgreSQL como nosso SGBD relacional, responsável pelo armazenamento seguro e pela integridade dos dados.|
+|[MONGODB](https://www.mongodb.com/)|Utilizamos o MongoDB para o armazenamento dos logs da aplicação e para a persistência dos valores gerados pelos modelos de Machine Learning.|
+|[TAIGA](https://taiga.io/)|A plataforma Taiga foi utilizada para o gerenciamento ágil do projeto, incluindo o acompanhamento das User Stories (US) e das tarefas associadas.|
+|[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Utilizou-se o Flyway para gerar as migrations e versionar o banco de dados.|
+|[SONAR-CLOUD](https://sonarcloud.io/login)|O SonarCloud foi empregado para revisão automatizada do código, visando a melhoria da qualidade e a correção de problemas de segurança.|
+|[SWAGGER-DOC](https://swagger.io/)|A ferramenta Swagger (OpenAPI Specification) foi utilizada para documentar a API.|
 
 
 <br>
@@ -1189,17 +1193,17 @@ Desenvolvi a lógica de Controle de Acesso Baseado em Roles, garantindo que some
 
 <h2>Hard Skills</h2>
 
-Nome|Descrição|
-| :-------- | :-------- |
-|PROPHET| Utilizei a biblioteca Prophet (desenvolvida pelo Facebook) para a modelagem e treinamento de séries temporais|
-|PYTHON|Utilizei Python no pipeline para orquestrar a fase de carga (Load). Após o cálculo das previsões, o código em Python é responsável por conectar-se diretamente ao MongoDB e armazenar todos os dados gerados pelo modelo.|
-|JUPYTER|Utilizei o Jupyter Notebook como ambiente de desenvolvimento interativo para treinar e gerar o modelo de forecasting|
-|MONGODB|Utilizei o mongo db para armazenar os daods do modelo de IA e também para armazenar os dados de Log da aplicação|
-|JPA CRITERIA API|Utilizei a JPA Criteria API para aprimorar a camada de persistência, possibilitando a construção programática de queries. Essa abordagem tornou as consultas de busca dinâmicas e altamente flexíveis, facilitando a implementação e o gerenciamento de filtros complexos na aplicação.|
-|SLF4J|Implementei o sistema de logs da aplicação utilizando o SLF4J (Simple Logging Facade for Java) para a injeção e manipulação dos registros. Em seguida, configurei o appender de log para garantir a persistência centralizada desses registros em uma collection dedicada no MongoDB.|
-|THYMELEAF JAVA|Implementei a criação de templates de e-mail em HTML utilizando o Thymeleaf em conjunto com a linguagem Java. Essa abordagem permitiu a injeção e o processamento de variáveis e dados dinâmicos do Java diretamente nos templates HTML, possibilitando o envio de comunicações personalizadas e contextualmente ricas para os usuários.|
-|DUCKDB|Utilizei o DunckDb para fazer conexão com o banco de dados postegresql para buscar dados para o treinamento de IA|
-|KAGGLE|Fonte do dataset usado no treinamento do modelo preditivo.|
+Nome|Descrição|Nível
+| :-------- | :-------- |:-------- |
+|PROPHET| Utilizei a biblioteca Prophet (desenvolvida pelo Facebook) para a modelagem e treinamento de séries temporais|★★★☆☆|
+|PYTHON|Utilizei Python no pipeline para orquestrar a fase de carga (Load). Após o cálculo das previsões, o código em Python é responsável por conectar-se diretamente ao MongoDB e armazenar todos os dados gerados pelo modelo.|★★★☆☆|
+|JUPYTER|Utilizei o Jupyter Notebook como ambiente de desenvolvimento interativo para treinar e gerar o modelo de forecasting|★★★☆☆|
+|MONGODB|Utilizei o mongo db para armazenar os daods do modelo de IA e também para armazenar os dados de Log da aplicação|★★★★☆|
+|JPA CRITERIA API|Utilizei a JPA Criteria API para aprimorar a camada de persistência, possibilitando a construção programática de queries. Essa abordagem tornou as consultas de busca dinâmicas e altamente flexíveis, facilitando a implementação e o gerenciamento de filtros complexos na aplicação.|★★★★☆|
+|SLF4J|Implementei o sistema de logs da aplicação utilizando o SLF4J (Simple Logging Facade for Java) para a injeção e manipulação dos registros. Em seguida, configurei o appender de log para garantir a persistência centralizada desses registros em uma collection dedicada no MongoDB.|★★★★☆|
+|THYMELEAF JAVA|Implementei a criação de templates de e-mail em HTML utilizando o Thymeleaf em conjunto com a linguagem Java. Essa abordagem permitiu a injeção e o processamento de variáveis e dados dinâmicos do Java diretamente nos templates HTML, possibilitando o envio de comunicações personalizadas e contextualmente ricas para os usuários.|★★★★☆|
+|DUCKDB|Utilizei o DunckDb para fazer conexão com o banco de dados postegresql para buscar dados para o treinamento de IA|★★★☆☆|
+|KAGGLE|Fonte do dataset usado no treinamento do modelo preditivo.|★★★☆☆|
 
 
 <h2>Soft Skills</h2>
