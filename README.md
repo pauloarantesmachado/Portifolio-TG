@@ -765,7 +765,7 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/geo-iot-2024-1">G
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema.|
 |[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
 |[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estilização, o design e o apresentação visual da página web foram definidos utilizando CSS (Cascading Style Sheets).|
 |[VUE](https://vuejs.org/)|O framework Vue.js foi escolhido para o desenvolvimento frontend da aplicação. Ele foi implementado seguindo o padrão SPA (Single Page Application), facilitando a construção interativa das telas.|
@@ -928,13 +928,13 @@ O objetivo do projeto é desenvolver uma plataforma integrada a ferramenta de ge
   <li>Tabela com a listagem de cada projeto, o gestor responsável e o número de pessoas alocadas, para uma visão clara da estrutura.</li>
   <li>Funcionalidade de exportação dos dados do Dashboard para arquivo CSV, permitindo análise, compartilhamento e arquivamento externo.</li>
   <li>Tabela abrangente de registro de auditoria que detalha cada ação realizada na aplicação (usuário, tipo de ação e timestamp).</li>
-</ul>
-
-<h4>Funcionalidades Gerais</h4>
-<ul>
-  <li>Implementação do sistema de autenticação na aplicação, permitindo acesso seguro aos indicadores e dados relevantes (para Operador, Gestor e Admin).</li>
   <li>Funcionalidade para o Admin cadastrar novos usuários, com a obrigatoriedade de associar o usuário a, no mínimo, uma ferramenta de gestão (Taiga, Trello ou Jira) para fins de integração.</li>
   <li>Capacidade de o Admin integrar novas ferramentas ao sistema, permitindo a ampliação de funcionalidades e interoperabilidade.</li>
+</ul>
+
+<h4>Funcionalidade Geral</h4>
+<ul>
+  <li>Implementação do sistema de autenticação na aplicação, permitindo acesso seguro aos indicadores e dados relevantes (para Operador, Gestor e Admin).</li> 
 </ul>
 
 Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">YOUTAN DASH</a>
@@ -969,18 +969,18 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">
 
 Nome|Descrição|
  :--------: | :-------- |
-|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema de Avaliação.|
+|[FIGMA](https://www.figma.com/pt-br/)|O Figma foi a ferramenta central utilizada para a etapa de design de interface (UI) e planejamento da experiência do usuário (UX) do sistema.|
 |[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
-|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estrutura e o conteúdo das páginas web foram definidos utilizando a linguagem de marcação HTML (HyperText Markup Language).|
+|[CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)|A estilização, o design e o apresentação visual da página web foram definidos utilizando CSS (Cascading Style Sheets).|
 |[VUE](https://vuejs.org/)|O framework Vue.js foi escolhido para o desenvolvimento frontend da aplicação. Ele foi implementado seguindo o padrão SPA (Single Page Application), facilitando a construção interativa das telas.|
 |[TYPESCRIPT](https://www.typescriptlang.org/docs/handbook/2/objects.html)|O desenvolvimento do front-end foi realizado utilizando a linguagem TypeScript como principal ferramenta de codificação.|
 |[GIT](https://git-scm.com/)|O Git foi a ferramenta padrão selecionada e utilizada para o versionamento e controle do código-fonte em nosso projeto.|
 |[GITHUB](https://github.com/)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
-|[SPRING-BOOT](https://spring.io/projects/spring-boot)|O GitHub foi a plataforma escolhida para hospedar e gerenciar nosso repositório Git.|
+|[SPRING-BOOT](https://spring.io/projects/spring-boot)|O framework Spring Boot foi adotado no back-end para facilitar a configuração e o desenvolvimento rápido da aplicação. A implementação seguiu o padrão de Arquitetura em Camadas.|
 |[JAVA](https://docs.oracle.com/en/java/javase/17/)|A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação.|
-|[MAVEN](https://maven.apache.org/)|A linguagem Java foi utilizada para o desenvolvimento do back-end da aplicação.|
+|[MAVEN](https://maven.apache.org/)|O Maven foi adotado como ferramenta de gerenciamento de dependências para o projeto Java, facilitando a inclusão e o controle das bibliotecas externas.|
 |[VSCODE](https://code.visualstudio.com/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
-|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o Visual Studio Code (VS Code) como editor de código-fonte durante o desenvolvimento|
+|[INTELLIJ](https://www.jetbrains.com/pt-br/idea/)|Utilizou-se o IntelliJ como IDE para o JAVA.|
 |[VERCEL](https://vercel.com/)|A plataforma Vercel foi utilizada para realizar a implantação (deploy) e a hospedagem da página de análise de requisitos.|
 |[ORACLEDB](https://www.oracle.com/br/cloud/)|O Oracle Database foi o Sistema Gerenciador de Banco de Dados (SGBD) escolhido para garantir a persistência e a segurança dos dados da aplicação.|
 |[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Utilizou-se o Flyway para gerar as migrations e versionar o banco de dados.|
@@ -1032,11 +1032,11 @@ Desenvolvi uma funcionalidade para exportar os dados do dashboard em formato CSV
 
 <h2>Hard Skills</h2>
 
-Nome|Descrição|
-| :-------- | :-------- |
+Nome|Descrição|Nível
+| :-------- | :-------- |:-------- |
 |Figma| Utilizei o Figma para criar o protótipo da aplicação, desenvolvendo mockups das telas e componentes para facilitar a implementação pelo time de front-end. Além disso, os protótipos foram essenciais para apresentar e validar as funcionalidades com o cliente, tornando o entendimento do produto mais claro e visual.|★★★★★|
 |Vercel|Utilizei o Vercel para realizar o deploy da página web, tornando a documentação de rastreamento de requisitos mais acessível e fácil de consultar para toda a equipe.|★★★★★|
-|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|★★★★★|
+|Test unitários|Testes unitários (JUnit, Mockito, Vitest) Criação e documentação de testes para validação de regras de negócio e interações de interface.|★★★★☆|
 
 
 <h2>Soft Skills</h2>
@@ -1187,6 +1187,20 @@ O acesso completo à plataforma é condicionado à aprovação de um Administrad
 Desenvolvi a lógica de Controle de Acesso Baseado em Roles, garantindo que somente usuários com a role de Administrador possam acessar a tela de gestão. Para viabilizar o fluxo de aprovação, adicionei as colunas Status e Ações à tabela de usuários já existente na tela de Admin. Essa interface permite que o Administrador aprove explicitamente os cadastros, sendo essa aprovação uma condição obrigatória para que o usuário possa utilizar a plataforma.
 <div>
     <img src="img/adminTable.png">
+</div>
+</details>
+<details>
+<summary>Implementação do CI no repositorio de front-end e back-end</summary>
+Configurei um workflow no GitHub Actions (via arquivo YAML) para rodar o build da aplicação automaticamente a cada Pull Request (PR). Isso permite uma verificação imediata de que o código enviado compila corretamente.
+<div>
+    <img src="img/ci.png">
+</div>
+</details>
+<details>
+<summary>Implementação Sonar-cloud</summary>
+Implementei um job dedicado no meu GitHub Actions workflow para integrar o SonarCloud. Este job executa a Análise Estática de Código (SAST) em cada build, com o objetivo principal de identificar e prevenir a duplicação de código, vulnerabilidades de segurança e code smells
+<div>
+    <img src="img/sonar.png">
 </div>
 </details>
 <br>
