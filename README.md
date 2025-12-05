@@ -14,6 +14,8 @@ Atualmente, estou efetivado na <a href="https://www.fitec.org.br">Fitec (Inovaç
 
 [LINKEDIN](https://www.linkedin.com/in/pauloantonioarantesmachado/)
 
+[EMAIL](mailto:pauloantoniomachado@hotmail.com)
+
 ---
 
 <h2>Meus principais conhecimentos</h2>
@@ -1053,10 +1055,14 @@ Nome|Descrição|
 Projeto executado em colaboração com a Pro4tec.
 
 <h3>Problema</h3>
-A Pro4tec enfrentava a necessidade de modernizar sua base histórica de tickets de suporte. O problema se dividia em duas frentes principais:
+A Pro4tec enfrenta uma dor crítica relacionada à gestão da sua base histórica de tickets de suporte. Hoje, esse acervo de dados antigos gera dois grandes desafios que comprometem tanto a operação quanto a estratégia da empresa:
 <ul>
-<li>Segurança e Conformidade: Garantir a segurança e o tratamento adequado das informações dos clientes, alinhando a gestão de dados antigos à LGPD (Lei Geral de Proteção de Dados).</li>
-<li>Inteligência de Gestão: Desenvolver capacidades de visualização e análise (business intelligence) para extrair insights dos dados, o que permitiria um gerenciamento mais eficiente e estratégico dos tickets de suporte.</li>
+<li>Risco de não conformidade e vulnerabilidade de dados (LGPD):
+A base legada contém informações sensíveis de clientes que não estão estruturadas, padronizadas ou tratadas conforme as exigências atuais da LGPD. Isso representa riscos jurídicos, operacionais e reputacionais.
+A empresa precisa garantir segurança, anonimização adequada e controle sobre os dados para evitar incidentes e manter a confiança de seus clientes</li>
+<li>Falta de inteligência operacional e dificuldade em extrair valor dos dados
+Atualmente, a Pro4tec não consegue transformar seus dados históricos em informações estratégicas. A ausência de dashboards, análises e indicadores impede a geração de insights importantes, como padrões de chamados, produtividade do suporte, problemas recorrentes e oportunidades de melhoria.
+A gestão dos tickets permanece reativa, limitada e pouco orientada a dados.</li>
 </ul>
 
 <h3>Funcionalidades</h3>
@@ -1077,7 +1083,8 @@ A Pro4tec enfrentava a necessidade de modernizar sua base histórica de tickets 
 </ul>
 
 <h3>Objetivo da aplicação</h3>
-O propósito essencial deste projeto é tratar e modernizar a base de dados legada do cliente, que armazena informações de tickets de suporte, visando a estrita conformidade com a LGPD. Além da adequação legal e segurança dos dados, a aplicação incorporará inteligência artificial (IA) para gerar métricas e insights.
+O objetivo desta aplicação é modernizar e tratar a base de dados legada de tickets de suporte da Pro4tec, garantindo que todas as informações históricas sejam armazenadas, processadas e gerenciadas de acordo com as exigências da LGPD, eliminando riscos legais e aumentando a segurança dos dados sensíveis.
+Além da conformidade, o projeto visa transformar essa base histórica em um ativo estratégico, incorporando recursos de inteligência artificial para produzir métricas, análises avançadas e insights que apoiem a tomada de decisões. Dessa forma, a aplicação não apenas protege os dados do cliente, mas também gera valor operacional e gerencial, permitindo uma visão mais clara, eficiente e previsível sobre os tickets de suporte.
 
 Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARDAL - Insights e Metricas de Tickets de chamados de suporte</a>
 
@@ -1207,7 +1214,7 @@ Configurei um workflow no GitHub Actions (via arquivo YAML) para rodar o build d
 </div>
 </details>
 <details>
-<summary>Implementação Sonar-cloud</summary>
+<summary>Implementação Sonar-Cloud</summary>
 Implementei um job dedicado no meu GitHub Actions workflow para integrar o SonarCloud. Este job executa a Análise Estática de Código (SAST) em cada build, com o objetivo principal de identificar e prevenir a duplicação de código, vulnerabilidades de segurança e code smells
 <div>
     <img src="img/sonar.png">
