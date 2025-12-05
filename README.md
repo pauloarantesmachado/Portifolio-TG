@@ -959,7 +959,6 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/dashflow-2025-1">
         <a href="https://taiga.io/" target="_blank"><img src="https://img.shields.io/badge/Taiga-4E8098?style=for-the-badge&logo=taiga&logoColor=white" alt="Taiga"></a>
         <a href="https://code.visualstudio.com/" target="_blank"><img src="https://img.shields.io/badge/VS%20CODE-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"></a>
         <a href="https://www.jetbrains.com/pt-br/idea/" target="_blank"><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"></a>
-        <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
         <a href="https://junit.org/junit5/" target="_blank"><img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white" alt="JUnit"></a>
         <a href="https://site.mockito.org/" target="_blank"><img src="https://img.shields.io/badge/Mockito-000000?style=for-the-badge&logo=mockito&logoColor=white" alt="Mockito"></a>
         <a href="https://vitest.dev/" target="_blank"><img src="https://img.shields.io/badge/Vitest-6E9411?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest"></a>
@@ -1054,7 +1053,11 @@ Nome|Descrição|
 Projeto executado em colaboração com a Pro4tec.
 
 <h3>Problema</h3>
-O desafio central do cliente, a Pro4tec, reside na modernização de sua base de dados de chamados antigos. O projeto é impulsionado por dois pilares: Conformidade e Segurança (LGPD), visando adequar o tratamento e a segurança das informações de suporte à Lei Geral de Proteção de Dados, e Inteligência de Dados, buscando transformar a base em uma fonte estratégica, extraindo métricas e insights para otimizar a gestão de suporte e a tomada de decisão.
+A Pro4tec enfrentava a necessidade de modernizar sua base histórica de tickets de suporte. O problema se dividia em duas frentes principais:
+<ul>
+<li>Segurança e Conformidade: Garantir a segurança e o tratamento adequado das informações dos clientes, alinhando a gestão de dados antigos à LGPD (Lei Geral de Proteção de Dados).</li>
+<li>Inteligência de Gestão: Desenvolver capacidades de visualização e análise (business intelligence) para extrair insights dos dados, o que permitiria um gerenciamento mais eficiente e estratégico dos tickets de suporte.</li>
+</ul>
 
 <h3>Funcionalidades</h3>
 <ul>
@@ -1095,6 +1098,8 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARD
         <a href="https://eclipseide.org/" target="_blank"><img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse IDE"></a>
         <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
         <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+        <a href="https://pandas.pydata.org/" target="_blank"><img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></a>
+        <a href="https://www.kaggle.com/" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle"></a>
         <a href="https://duckdb.org/" target="_blank"><img src="https://img.shields.io/badge/DuckDB-DD4631?style=for-the-badge&logo=duckdb&logoColor=white" alt="DuckDB"></a>
         <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
         <a href="https://www.mongodb.com/" target="_blank"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"></a>
@@ -1103,6 +1108,7 @@ Link da aplicação:<a href="https://github.com/manolito-fatec/pardal-2025">PARD
         <a href="https://sonarcloud.io/login" target="_blank"><img src="https://img.shields.io/badge/SonarCloud-F37243?style=for-the-badge&logo=sonarcloud&logoColor=white" alt="SonarCloud"></a>
         <a href="https://jupyter.org/" target="_blank"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook"></a>
         <a href="https://swagger.io/" target="_blank"><img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger"></a>
+        <a href="https://www.vaultproject.io/" target="_blank"><img src="https://img.shields.io/badge/HashiCorp%20Vault-FFC700?style=for-the-badge&logo=vault&logoColor=black" alt="HashiCorp Vault"></a>
    </div>
 </div>
 
@@ -1122,13 +1128,17 @@ Nome|Descrição|
 |[ECLIPSE](https://eclipseide.org/)|Eclipse foi utilizado como ide para o java no back-end|
 |[DOCKER](https://www.docker.com/)|O Docker foi utilizado para a geração de imagens e contêineres dos seguintes serviços: PostgreSQL, MongoDB, o processo de ETL em Python e o Vault.|
 |[PYTHON](https://www.python.org/)|O Python foi essencial para as atividades de Engenharia de Dados (processos de ETL) e para a Ciência de Dados (criação de modelos de Machine Learning).|
+|[PANDAS](https://pandas.pydata.org/)|A biblioteca Pandas foi empregada nas etapas de pré-processamento e manipulação do dataset|
+|[KAGGLE](https://www.kaggle.com/)|Utilizamos os Kaggle para utilizarmos o dataset para o treinamento de IA('Séries Temporais')|
 |[DUNCKDB](https://duckdb.org/)|Empregamos o DuckDB para realizar a conexão e consulta de dados de forma rápida e eficiente dentro do processo de back-end da aplicação.|
 |[POSTGRESQL](https://www.postgresql.org/)|Adotamos o PostgreSQL como nosso SGBD relacional, responsável pelo armazenamento seguro e pela integridade dos dados.|
 |[MONGODB](https://www.mongodb.com/)|Utilizamos o MongoDB para o armazenamento dos logs da aplicação e para a persistência dos valores gerados pelos modelos de Machine Learning.|
 |[TAIGA](https://taiga.io/)|A plataforma Taiga foi utilizada para o gerenciamento ágil do projeto, incluindo o acompanhamento das User Stories (US) e das tarefas associadas.|
 |[FLYWAY](https://www.red-gate.com/products/flyway/community/)|Utilizou-se o Flyway para gerar as migrations e versionar o banco de dados.|
 |[SONAR-CLOUD](https://sonarcloud.io/login)|O SonarCloud foi empregado para revisão automatizada do código, visando a melhoria da qualidade e a correção de problemas de segurança.|
+|[JUPYTER](https://jupyter.org/)|O Jupyter foi empregado como o ambiente interativo principal para a execução e o monitoramento de todas as etapas do processo de treinamento do modelo de Inteligência Artificial (IA)|
 |[SWAGGER-DOC](https://swagger.io/)|A ferramenta Swagger (OpenAPI Specification) foi utilizada para documentar a API.|
+|[VAULT](https://developer.hashicorp.com/vault)|O Vault foi incorporado à aplicação para atuar como nosso serviço de gerenciamento de segredos. Ele centraliza e protege as chaves e hashes de cada usuário, assegurando que as credenciais sejam acessadas de forma segura e controlada, minimizando riscos de exposição.|
 
 
 <br>
@@ -1210,8 +1220,8 @@ Implementei um job dedicado no meu GitHub Actions workflow para integrar o Sonar
 Nome|Descrição|Nível
 | :-------- | :-------- |:-------- |
 |PROPHET| Utilizei a biblioteca Prophet (desenvolvida pelo Facebook) para a modelagem e treinamento de séries temporais|★★★☆☆|
-|PYTHON|Utilizei Python no pipeline para orquestrar a fase de carga (Load). Após o cálculo das previsões, o código em Python é responsável por conectar-se diretamente ao MongoDB e armazenar todos os dados gerados pelo modelo.|★★★☆☆|
-|JUPYTER|Utilizei o Jupyter Notebook como ambiente de desenvolvimento interativo para treinar e gerar o modelo de forecasting|★★★☆☆|
+|PYTHON|Utilizei Python no pipeline para orquestrar a fase de carga (Load). Após o cálculo das previsões, o código em Python é responsável por conectar-se diretamente ao MongoDB e armazenar todos os dados gerados pelo modelo.|★★★★☆|
+|JUPYTER|Utilizei o Jupyter Notebook como ambiente de desenvolvimento interativo para treinar e gerar o modelo de forecasting|★★★★☆|
 |MONGODB|Utilizei o mongo db para armazenar os daods do modelo de IA e também para armazenar os dados de Log da aplicação|★★★★☆|
 |JPA CRITERIA API|Utilizei a JPA Criteria API para aprimorar a camada de persistência, possibilitando a construção programática de queries. Essa abordagem tornou as consultas de busca dinâmicas e altamente flexíveis, facilitando a implementação e o gerenciamento de filtros complexos na aplicação.|★★★★☆|
 |SLF4J|Implementei o sistema de logs da aplicação utilizando o SLF4J (Simple Logging Facade for Java) para a injeção e manipulação dos registros. Em seguida, configurei o appender de log para garantir a persistência centralizada desses registros em uma collection dedicada no MongoDB.|★★★★☆|
