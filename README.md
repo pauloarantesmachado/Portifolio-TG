@@ -888,7 +888,7 @@ Nome|Descrição|Nível
 
 Nome|Descrição|
 | :-------- | :-------- |
-|Aprendizado contínuo|Nesse projeto tive que buscar studar e entender novas tecnologias as quais eu nunca tinha trabalahdo, portanto me dediquei e conseguir atribuir essa ferramentas a aplicação.|
+|Aprendizado contínuo|Nesse projeto tive que buscar studar e entender novas tecnologias as quais eu nunca tinha trabalhado, portanto me dediquei e conseguir atribuir essa ferramentas a aplicação.|
 |Proatividade| Fui proativo ao assumir tarefas que apresentavam um maior grau de complexidade, demonstrando iniciativa e disposição para enfrentar desafios. Além disso, contribuí ativamente com o time, oferecendo suporte a colegas que estavam com dificuldades técnicas ou enfrentando obstáculos nas suas tarefas.|
 |Pensamento crítico|Durante o projeto, percebi que diversas informações descritas na documentação inicial repassada pelo cliente, no kick-off, acabavam fugindo do escopo ou não faziam sentido técnico dentro da proposta da solução. Com base nisso, sempre busquei analisar com cuidado essas demandas e conversei com o PO para propor ajustes ou abordagens mais coerentes. Essa postura ajudou a evitar retrabalho e garantiu que as implementações estivessem alinhadas com os objetivos reais do projeto.|
 
